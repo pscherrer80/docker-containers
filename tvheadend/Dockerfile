@@ -53,3 +53,6 @@ RUN chmod +x /etc/service/tvheadend/run
 
 #Add ffmpeg to /usr/bin/
 ADD ffmpeg.gz /usr/bin/
+
+#Add ffpipe.sh to /usr/local/bin/
+ADD ffpipe.sh /usr/local/bin/
