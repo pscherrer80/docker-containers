@@ -1,3 +1,20 @@
+#first add xmltv
+FROM perl
+MAINTAINER pscherrer80 <pscherrer80@gmail.com>
+
+# Set xmltv version 
+ENV VERSION_XMLTV="0.5.66"
+
+# Install additional perl modules
+RUN cpan install Archive::Zip DateTime DateTime::Format::Strptime HTML::TreeBuilder HTTP::Cache::Transparent IO::Scalar JSON Lingua::EN::Numbers::Ordinate Lingua::Preferred Term::ProgressBar Term::ReadKey XML::Twig Date::Manip Tk Tk::TableMatrix Unicode::String Unicode::UTF8simple XML::DOM XML::LibXML XML::LibXSLT XML::TreePP XML::Writer  && rm -rf /root/.cpan
+
+# Download xmltv source code
+ADD http://downloads.sourceforge.net/project/xmltv/xmltv/$VERSION_XMLTV/xmltv-$VERSION_XMLTV.tar.bz2 /tmp/
+
+# Compile xmltv source code
+RUN cd /tmp && tar xjvf xmltv-$VERSION_XMLTV.tar.bz2 && cd xmltv-$VERSION_XMLTV && echo "yes" | perl Makefile.PL && make && make install && rm -rf /tmp/xmltv-$VERSION_XMLTV*
+
+#add tvheadend
 FROM phusion/baseimage:0.9.17
 MAINTAINER pscherrer80 <pscherrer80@gmail.com>
 ENV DEBIAN_FRONTEND noninteractive
@@ -28,10 +45,6 @@ EXPOSE 9981 9982
 VOLUME /config \
        /recordings \
 	   /data
-
-# Add tv_grab_wg to /usr/bin/
-ADD tv_grab_wg tv_grab_file /usr/bin/
-RUN chmod +x /usr/bin/tv_grab_*
 
 #Start tvheadend when container starts
 RUN mkdir -p /etc/service/tvheadend
