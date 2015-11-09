@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>tvheadend</Name>
+  <Name>tvheadend-testpsc</Name>
   <Overview>This is the stable branch of Tvheadend installed from the Tvheadend apt-repository. Version: 4.0.7
   	Tvheadend is a TV streaming server for Linux supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, IPTV, SAT>IP and HDHomeRun as input sources.
 
@@ -30,7 +30,7 @@ In recent version, the pipe:// source (in IPTV network) might be used to obtain 
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/cache/appdata/tvheadend/</HostDir>
+      <HostDir>/mnt/cache/appdata/tvheadend-testpsc/</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
