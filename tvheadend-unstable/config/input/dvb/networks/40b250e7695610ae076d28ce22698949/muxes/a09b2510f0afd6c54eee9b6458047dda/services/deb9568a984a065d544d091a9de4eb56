@@ -1,0 +1,42 @@
+{
+	"sid": 415,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "BFM TV",
+	"provider": "Eutelsat",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055080,
+	"last_seen": 1445055080,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 751,
+	"pmt": 750,
+	"stream": [
+		{
+			"pid": 751,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 752,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 756,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "fre",
+			"compositionid": 1,
+			"ancillartyid": 1
+		}
+	]
+}

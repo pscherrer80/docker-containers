@@ -1,0 +1,76 @@
+{
+	"sid": 13864,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "EUROSPORT2 PL",
+	"provider": "Eutelsat",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055396,
+	"last_seen": 1445055396,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 5110,
+	"pmt": 2846,
+	"stream": [
+		{
+			"pid": 5110,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 5120,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		},
+		{
+			"pid": 5130,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 5220,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		},
+		{
+			"pid": 5154,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 5161,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 5162,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2353
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"sid": 5,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Somaliland National TV",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055364,
+	"last_seen": 1445055364,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 501,
+	"pmt": 500,
+	"stream": [
+		{
+			"pid": 501,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 502,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

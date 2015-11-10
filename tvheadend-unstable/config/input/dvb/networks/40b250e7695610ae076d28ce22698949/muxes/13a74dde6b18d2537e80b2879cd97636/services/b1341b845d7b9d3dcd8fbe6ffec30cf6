@@ -1,0 +1,39 @@
+{
+	"sid": 311,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Skai Radio",
+	"provider": "NetMed",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055321,
+	"last_seen": 1445055321,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 681,
+	"pmt": 265,
+	"stream": [
+		{
+			"pid": 1528,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1540
+				}
+			]
+		},
+		{
+			"pid": 681,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "gre",
+			"audio_type": 1
+		}
+	]
+}

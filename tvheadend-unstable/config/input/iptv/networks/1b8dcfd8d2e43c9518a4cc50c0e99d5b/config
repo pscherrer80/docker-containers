@@ -1,0 +1,16 @@
+{
+	"priority": 1,
+	"spriority": 1,
+	"max_streams": 0,
+	"max_bandwidth": 0,
+	"max_timeout": 15,
+	"networkname": "IPTV",
+	"nid": 0,
+	"autodiscovery": true,
+	"skipinitscan": true,
+	"idlescan": false,
+	"sid_chnum": false,
+	"ignore_chnum": false,
+	"satip_source": 0,
+	"localtime": false
+}

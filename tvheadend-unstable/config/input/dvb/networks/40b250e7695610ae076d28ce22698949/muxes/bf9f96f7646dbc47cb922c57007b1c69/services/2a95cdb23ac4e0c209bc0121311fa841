@@ -1,0 +1,22 @@
+{
+	"sid": 380,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "MAD TV",
+	"provider": "NetMed",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055230,
+	"last_seen": 1445055230,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 0,
+	"pmt": 270,
+	"stream": [
+	]
+}

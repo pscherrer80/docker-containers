@@ -1,0 +1,34 @@
+{
+	"sid": 3308,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "UNINETTUNO UNIVERSITY TV",
+	"provider": "Rai",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055321,
+	"last_seen": 1445055321,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 519,
+	"pmt": 256,
+	"stream": [
+		{
+			"pid": 519,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 657,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		}
+	]
+}

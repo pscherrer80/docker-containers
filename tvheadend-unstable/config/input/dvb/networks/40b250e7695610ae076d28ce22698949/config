@@ -1,0 +1,13 @@
+{
+	"orbital_pos": "13E",
+	"networkname": "Hotbird",
+	"nid": 0,
+	"autodiscovery": true,
+	"skipinitscan": true,
+	"idlescan": false,
+	"sid_chnum": false,
+	"ignore_chnum": false,
+	"satip_source": 1,
+	"localtime": false,
+	"class": "dvb_network_dvbs"
+}
