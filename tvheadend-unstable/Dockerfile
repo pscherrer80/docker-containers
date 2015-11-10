@@ -48,4 +48,4 @@ RUN apt-get update -qq
 RUN apt-get install -qy xmltv
 
 #Add basic configuration for German Astra/Hotbird Channels
-ADD config /config/
+#ADD config /config/
