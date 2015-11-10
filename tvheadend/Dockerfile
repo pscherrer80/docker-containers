@@ -44,4 +44,7 @@ ADD ffpipe.sh /usr/local/bin/
 
 #Add XMLTV to use other grabber
 #Use mythbuntu repo 'cause ubuntu repo is to old
-RUN apt-get install xmltv-gui
+RUN add-apt-repository "deb http://us.archive.ubuntu.com/ubuntu/ precise main universe"
+RUN apt-get update
+RUN apt-get install xmltv
+
