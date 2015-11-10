@@ -1,12 +1,17 @@
-TVHeadend latest unstable version
+TVHeadend latest unstable version<br>
+<br>
+Additional files:<br>
+ffmpeg and ffpipe.sh to get IPTV-Channels with X-Forward working<br>
+XMLTV-package to grab additional epgdata<br>
+.configuration within dockerfile is needed<br>
 
-Additional files:
-ffmpeg and ffpipe.sh to get IPTV-Channels with X-Forward working
-XMLTV-package to grab additional epgdata
-.configuration within dockerfile is needed
+<br>
+Configuration tv_grab_eu_epgdata:<br>
+docker exec -it <container_name> bash<br>
+<br><br>
+change to user nobody:<br>
+chsh -s /bin/bash nobody<br>
+su nodody <br>
 
-
-Configuration tv_grab_eu_epgdata:
-docker exec -it <container_name> bash
-tv_grab_eu_epgdata --configure
-tv_grab_eu_epgdata --days 14
+tv_grab_eu_epgdata --configure<br>
+.follow instructions<br>
