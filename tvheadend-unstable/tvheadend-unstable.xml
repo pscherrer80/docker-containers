@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>Tvheadend-Unstable</Name>
-  <Overview>This is the latest unstable branch of Tvheadend installed from the Tvheadend apt-repository
+  <Overview>This is the latest unstable branch of Tvheadend installed from the Tvheadend apt-repository.
   	Tvheadend is a TV streaming server for Linux supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, IPTV, SAT>IP and HDHomeRun as input sources.
   </Overview>
 <Description>Tvheadend is a TV streaming server for Linux supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, IPTV. [br]&#13;
