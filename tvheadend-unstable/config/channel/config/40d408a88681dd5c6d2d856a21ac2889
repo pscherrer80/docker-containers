@@ -1,0 +1,18 @@
+{
+	"enabled": true,
+	"name": "History HD",
+	"number": 100,
+	"icon": "picon://history_de_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"epg_running": -1,
+	"services": [
+		"9e8e3b4c53bf5576e7c3cd59c28ed08e"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

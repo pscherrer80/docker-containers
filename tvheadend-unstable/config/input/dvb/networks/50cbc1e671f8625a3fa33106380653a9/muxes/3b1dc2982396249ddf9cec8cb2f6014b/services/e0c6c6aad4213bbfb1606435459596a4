@@ -1,0 +1,62 @@
+{
+	"sid": 30057,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "TAQUILLA XX",
+	"provider": "PRISA TV",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054769,
+	"last_seen": 1445715017,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 164,
+	"pmt": 1031,
+	"stream": [
+		{
+			"pid": 164,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 96,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "spa",
+			"audio_type": 0
+		},
+		{
+			"pid": 97,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		},
+		{
+			"pid": 1145,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 16646
+				}
+			]
+		},
+		{
+			"pid": 2145,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6160
+				}
+			]
+		}
+	]
+}

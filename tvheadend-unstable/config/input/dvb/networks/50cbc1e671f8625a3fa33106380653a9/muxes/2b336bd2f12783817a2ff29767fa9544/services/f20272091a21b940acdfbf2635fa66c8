@@ -1,0 +1,129 @@
+{
+	"sid": 12895,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Sportdigital",
+	"provider": "M7 Group",
+	"dvb_servicetype": 22,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054943,
+	"last_seen": 1445054943,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 595,
+	"pmt": 395,
+	"stream": [
+		{
+			"pid": 4025,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6195
+				}
+			]
+		},
+		{
+			"pid": 4035,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2500
+				}
+			]
+		},
+		{
+			"pid": 4045,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2444
+				}
+			]
+		},
+		{
+			"pid": 3026,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 3477
+				}
+			]
+		},
+		{
+			"pid": 3056,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1608
+				}
+			]
+		},
+		{
+			"pid": 5026,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 3480
+				}
+			]
+		},
+		{
+			"pid": 5056,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1616
+				}
+			]
+		},
+		{
+			"pid": 2715,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 106
+				},
+				{
+					"caid": 6167
+				}
+			]
+		},
+		{
+			"pid": 3195,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		},
+		{
+			"pid": 595,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 145,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		}
+	]
+}

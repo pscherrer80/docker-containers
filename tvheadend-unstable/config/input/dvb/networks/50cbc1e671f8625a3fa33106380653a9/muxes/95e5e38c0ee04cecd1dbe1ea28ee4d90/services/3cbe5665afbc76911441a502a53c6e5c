@@ -1,0 +1,54 @@
+{
+	"sid": 28308,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "WDR Düsseldorf",
+	"provider": "ARD",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054952,
+	"last_seen": 1446747579,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 501,
+	"pmt": 500,
+	"stream": [
+		{
+			"pid": 501,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 502,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 503,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "mis",
+			"audio_type": 0
+		},
+		{
+			"pid": 504,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 505,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "ger",
+			"compositionid": 1,
+			"ancillartyid": 1
+		}
+	]
+}

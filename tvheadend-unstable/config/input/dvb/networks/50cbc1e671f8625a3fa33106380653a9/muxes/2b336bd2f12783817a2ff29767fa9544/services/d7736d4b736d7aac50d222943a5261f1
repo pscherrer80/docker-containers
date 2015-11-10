@@ -1,0 +1,88 @@
+{
+	"sid": 12856,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "RTL-TVi HD",
+	"provider": "M7 Group",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054943,
+	"last_seen": 1445054943,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 556,
+	"pmt": 356,
+	"stream": [
+		{
+			"pid": 4056,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2500
+				}
+			]
+		},
+		{
+			"pid": 2646,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 109
+				},
+				{
+					"caid": 6169
+				}
+			]
+		},
+		{
+			"pid": 2616,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 108
+				},
+				{
+					"caid": 6168
+				}
+			]
+		},
+		{
+			"pid": 3156,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		},
+		{
+			"pid": 556,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 106,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 56,
+			"type": "TELETEXT",
+			"position": 0
+		}
+	]
+}

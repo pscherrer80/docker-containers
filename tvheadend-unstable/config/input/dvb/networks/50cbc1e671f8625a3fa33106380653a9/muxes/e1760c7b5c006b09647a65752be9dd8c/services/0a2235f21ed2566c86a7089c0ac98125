@@ -1,0 +1,22 @@
+{
+	"sid": 4098,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Nagra DL DSR8141",
+	"provider": "M7 Group",
+	"dvb_servicetype": 12,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054899,
+	"last_seen": 1445054899,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8190,
+	"pmt": 2198,
+	"stream": [
+	]
+}

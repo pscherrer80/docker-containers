@@ -1,0 +1,22 @@
+{
+	"sid": 1490,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Fusion BGDL 1490",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 251,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055605,
+	"last_seen": 1445055605,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8191,
+	"pmt": 0,
+	"stream": [
+	]
+}

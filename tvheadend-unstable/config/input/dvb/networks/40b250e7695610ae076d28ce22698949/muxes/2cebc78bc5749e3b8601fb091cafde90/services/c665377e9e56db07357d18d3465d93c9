@@ -1,0 +1,22 @@
+{
+	"sid": 3408,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Senato",
+	"provider": "Rai",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055341,
+	"last_seen": 1445055341,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 0,
+	"pmt": 1107,
+	"stream": [
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"sid": 1,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "SES UHD Demo Channel",
+	"provider": "SES",
+	"dvb_servicetype": 31,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055020,
+	"last_seen": 1445055020,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 511,
+	"pmt": 97,
+	"stream": [
+		{
+			"pid": 511,
+			"type": "HEVC",
+			"position": 0
+		},
+		{
+			"pid": 515,
+			"type": "EAC3",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

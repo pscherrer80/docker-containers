@@ -1,0 +1,39 @@
+{
+	"sid": 13014,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "ORF2E",
+	"provider": "ORF",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054930,
+	"last_seen": 1446713629,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 170,
+	"pmt": 1004,
+	"stream": [
+		{
+			"pid": 170,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 171,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 505,
+			"type": "TELETEXT",
+			"position": 0
+		}
+	]
+}

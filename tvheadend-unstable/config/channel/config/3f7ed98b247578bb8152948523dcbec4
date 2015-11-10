@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "Welt der Wunder",
+	"number": 28,
+	"icon": "picon://welt_der_wunder_de.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"ff52eeda73b394bb0fdd4a5a2660aaf9"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"8b84724a87681e042bfbd29a008987f2"
+	],
+	"bouquet": ""
+}

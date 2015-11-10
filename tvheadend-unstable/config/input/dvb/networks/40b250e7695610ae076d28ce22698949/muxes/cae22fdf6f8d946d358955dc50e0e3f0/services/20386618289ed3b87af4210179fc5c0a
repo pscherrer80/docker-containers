@@ -1,0 +1,71 @@
+{
+	"sid": 4161,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Sky 3D",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055586,
+	"last_seen": 1445055586,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 161,
+	"pmt": 1006,
+	"stream": [
+		{
+			"pid": 1601,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1701,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1801,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		},
+		{
+			"pid": 404,
+			"type": "AC3",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 161,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 405,
+			"type": "AC3",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		}
+	]
+}

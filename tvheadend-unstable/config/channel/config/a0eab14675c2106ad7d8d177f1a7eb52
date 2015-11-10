@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "Sky Cinema+1 HD",
+	"number": 61,
+	"icon": "picon://sky_de_cinema_plus1_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"e63c1bf3d50ef2c3b7d6479f21eb01ee"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

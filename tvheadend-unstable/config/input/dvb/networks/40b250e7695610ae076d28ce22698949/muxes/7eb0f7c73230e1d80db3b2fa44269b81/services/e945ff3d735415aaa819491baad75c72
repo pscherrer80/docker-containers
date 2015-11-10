@@ -1,0 +1,34 @@
+{
+	"sid": 3404,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "RaiMed",
+	"provider": "Rai",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055327,
+	"last_seen": 1445055327,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 515,
+	"pmt": 260,
+	"stream": [
+		{
+			"pid": 515,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 653,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		}
+	]
+}

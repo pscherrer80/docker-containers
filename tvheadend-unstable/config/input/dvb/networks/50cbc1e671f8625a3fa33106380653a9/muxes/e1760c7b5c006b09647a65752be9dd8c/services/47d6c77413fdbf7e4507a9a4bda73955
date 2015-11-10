@@ -1,0 +1,92 @@
+{
+	"sid": 4011,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "NPO1",
+	"provider": "M7 Group",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054899,
+	"last_seen": 1445054899,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8190,
+	"pmt": 2111,
+	"stream": [
+		{
+			"pid": 1803,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 106
+				},
+				{
+					"caid": 6167
+				}
+			]
+		},
+		{
+			"pid": 1823,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 108
+				},
+				{
+					"caid": 6168
+				}
+			]
+		},
+		{
+			"pid": 1843,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 109
+				},
+				{
+					"caid": 6169
+				}
+			]
+		},
+		{
+			"pid": 1603,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 106
+				}
+			]
+		},
+		{
+			"pid": 517,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 88,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "dut",
+			"audio_type": 0
+		},
+		{
+			"pid": 34,
+			"type": "TELETEXT",
+			"position": 0
+		}
+	]
+}

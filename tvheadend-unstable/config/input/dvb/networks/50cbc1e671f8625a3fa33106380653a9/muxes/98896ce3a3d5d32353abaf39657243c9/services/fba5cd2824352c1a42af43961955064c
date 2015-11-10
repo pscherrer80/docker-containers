@@ -1,0 +1,34 @@
+{
+	"sid": 7014,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "NHK World TV",
+	"provider": "GLOBECAST",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054720,
+	"last_seen": 1446656518,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 714,
+	"pmt": 764,
+	"stream": [
+		{
+			"pid": 714,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 734,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

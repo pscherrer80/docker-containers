@@ -1,0 +1,122 @@
+{
+	"sid": 11,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Nickelodeon",
+	"provider": "MTV Networks Europe",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055422,
+	"last_seen": 1445055422,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1000,
+	"pmt": 1035,
+	"stream": [
+		{
+			"pid": 1000,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 1001,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 1
+		},
+		{
+			"pid": 1009,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 9080,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "pol",
+			"parentpid": 1009
+		},
+		{
+			"pid": 7911,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 329216
+				}
+			]
+		},
+		{
+			"pid": 6024,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 6007,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2817
+				}
+			]
+		},
+		{
+			"pid": 6604,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207360
+				}
+			]
+		},
+		{
+			"pid": 6224,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 6146,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6163
+				},
+				{
+					"caid": 256,
+					"providerid": 104
+				}
+			]
+		},
+		{
+			"pid": 6044,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6276
+				}
+			]
+		}
+	]
+}

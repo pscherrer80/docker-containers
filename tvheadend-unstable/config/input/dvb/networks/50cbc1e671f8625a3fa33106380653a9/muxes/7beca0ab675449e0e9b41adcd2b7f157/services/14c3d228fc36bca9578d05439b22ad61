@@ -1,0 +1,34 @@
+{
+	"sid": 30505,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "CANAL SUR A.",
+	"provider": "CANAL +",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054774,
+	"last_seen": 1446656518,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 166,
+	"pmt": 1029,
+	"stream": [
+		{
+			"pid": 166,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 104,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "spa",
+			"audio_type": 1
+		}
+	]
+}

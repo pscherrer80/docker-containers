@@ -1,0 +1,71 @@
+{
+	"sid": 307,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Arte HD",
+	"provider": "Eutelsat",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055475,
+	"last_seen": 1445055475,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 571,
+	"pmt": 570,
+	"stream": [
+		{
+			"pid": 571,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 572,
+			"type": "AC3",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 573,
+			"type": "AC3",
+			"position": 0,
+			"language": "qaa",
+			"audio_type": 0
+		},
+		{
+			"pid": 574,
+			"type": "AC3",
+			"position": 0,
+			"language": "qaa",
+			"audio_type": 0
+		},
+		{
+			"pid": 575,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "fre",
+			"compositionid": 3,
+			"ancillartyid": 1
+		},
+		{
+			"pid": 576,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "fre",
+			"compositionid": 2,
+			"ancillartyid": 1
+		},
+		{
+			"pid": 577,
+			"type": "AC3",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"sid": 29815,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "AXN",
+	"provider": "AXN",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054693,
+	"last_seen": 1445715017,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 171,
+	"pmt": 1039,
+	"stream": [
+		{
+			"pid": 171,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 124,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "spa",
+			"audio_type": 1
+		},
+		{
+			"pid": 125,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 1
+		},
+		{
+			"pid": 65,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 8993,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "spa",
+			"parentpid": 65
+		},
+		{
+			"pid": 8994,
+			"type": "TEXTSUB",
+			"position": 1001,
+			"language": "eng",
+			"parentpid": 65
+		},
+		{
+			"pid": 1132,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 16646
+				}
+			]
+		},
+		{
+			"pid": 2132,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6160
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"enabled": true,
+	"name": "Sky Sport HD 1",
+	"number": 227,
+	"icon": "picon://1_0_19_81_6_85_C00000_0_0_0.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"epg_running": -1,
+	"services": [
+		"a65afd1556648e8734ca4ecdec9c5219"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

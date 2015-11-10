@@ -1,0 +1,27 @@
+{
+	"sid": 309,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Yamal 309",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055218,
+	"last_seen": 1445055218,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 4530,
+	"pmt": 5309,
+	"stream": [
+		{
+			"pid": 4530,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

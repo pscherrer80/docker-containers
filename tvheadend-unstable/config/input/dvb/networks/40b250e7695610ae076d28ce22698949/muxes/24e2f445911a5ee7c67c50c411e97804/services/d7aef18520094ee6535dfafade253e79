@@ -1,0 +1,32 @@
+{
+	"sid": 2,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Family TV",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055552,
+	"last_seen": 1445055552,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 260,
+	"pmt": 1000,
+	"stream": [
+		{
+			"pid": 259,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 260,
+			"type": "H264",
+			"position": 0
+		}
+	]
+}

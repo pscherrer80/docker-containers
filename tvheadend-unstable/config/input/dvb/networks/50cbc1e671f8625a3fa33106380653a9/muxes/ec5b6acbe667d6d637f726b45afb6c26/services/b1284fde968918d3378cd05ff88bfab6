@@ -1,0 +1,104 @@
+{
+	"sid": 4718,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": ".1.",
+	"provider": "BetaDigital",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054706,
+	"last_seen": 1446130966,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 5119,
+	"pmt": 114,
+	"stream": [
+		{
+			"pid": 5119,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 5120,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 6849,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6192
+				}
+			]
+		},
+		{
+			"pid": 6851,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6240
+				}
+			]
+		},
+		{
+			"pid": 6850,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6211
+				}
+			]
+		},
+		{
+			"pid": 6859,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2500
+				}
+			]
+		},
+		{
+			"pid": 6884,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2444
+				}
+			]
+		},
+		{
+			"pid": 6886,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6250
+				}
+			]
+		},
+		{
+			"pid": 8132,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280
+				}
+			]
+		}
+	]
+}

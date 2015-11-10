@@ -1,0 +1,39 @@
+{
+	"sid": 7117,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Mad Radio",
+	"provider": "NetMed",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055554,
+	"last_seen": 1445055555,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 721,
+	"pmt": 273,
+	"stream": [
+		{
+			"pid": 1520,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1540
+				}
+			]
+		},
+		{
+			"pid": 721,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "gre",
+			"audio_type": 1
+		}
+	]
+}

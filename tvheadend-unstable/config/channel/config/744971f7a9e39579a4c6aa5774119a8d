@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "VOX HD",
+	"number": 20,
+	"icon": "picon://vox_ch_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"fb409dd5cf782a7bff90bac023be5732"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

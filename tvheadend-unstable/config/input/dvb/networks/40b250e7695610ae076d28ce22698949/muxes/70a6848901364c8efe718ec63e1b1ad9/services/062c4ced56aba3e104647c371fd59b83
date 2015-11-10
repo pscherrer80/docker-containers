@@ -1,0 +1,28 @@
+{
+	"sid": 9054,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Azeri Bible",
+	"provider": "STN Ltd",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055133,
+	"last_seen": 1445055133,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2031,
+	"pmt": 954,
+	"stream": [
+		{
+			"pid": 2032,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"sid": 220,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "RL North Caucasus 220",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055218,
+	"last_seen": 1445055218,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1520,
+	"pmt": 5220,
+	"stream": [
+		{
+			"pid": 1520,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1522,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

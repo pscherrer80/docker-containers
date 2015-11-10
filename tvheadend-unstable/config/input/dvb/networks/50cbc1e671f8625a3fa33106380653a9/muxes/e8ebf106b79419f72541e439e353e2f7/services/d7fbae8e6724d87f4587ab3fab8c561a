@@ -1,0 +1,84 @@
+{
+	"sid": 10302,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "arte HD",
+	"provider": "ARD",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054711,
+	"last_seen": 1446747581,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 5111,
+	"pmt": 5110,
+	"stream": [
+		{
+			"pid": 5111,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 5112,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 5113,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 5114,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 5115,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "ger",
+			"compositionid": 1,
+			"ancillartyid": 1
+		},
+		{
+			"pid": 5116,
+			"type": "AC3",
+			"position": 0,
+			"language": "mul",
+			"audio_type": 0
+		},
+		{
+			"pid": 5117,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "mis",
+			"audio_type": 0
+		},
+		{
+			"pid": 5118,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "fre",
+			"compositionid": 1,
+			"ancillartyid": 1
+		},
+		{
+			"pid": 5119,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "ger",
+			"compositionid": 1,
+			"ancillartyid": 1
+		}
+	]
+}

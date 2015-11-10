@@ -1,0 +1,51 @@
+{
+	"sid": 29907,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "VIAJAR HD",
+	"provider": "DIGITAL+",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054708,
+	"last_seen": 1445720857,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 162,
+	"pmt": 1031,
+	"stream": [
+		{
+			"pid": 162,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 92,
+			"type": "AC3",
+			"position": 0,
+			"language": "spa",
+			"audio_type": 1
+		},
+		{
+			"pid": 93,
+			"type": "AC3",
+			"position": 0,
+			"language": "qaa",
+			"audio_type": 0
+		},
+		{
+			"pid": 2187,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6160
+				}
+			]
+		}
+	]
+}

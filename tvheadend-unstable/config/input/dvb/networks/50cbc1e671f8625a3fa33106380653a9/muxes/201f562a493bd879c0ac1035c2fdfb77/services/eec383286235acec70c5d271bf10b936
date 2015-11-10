@@ -1,0 +1,29 @@
+{
+	"sid": 12660,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "HIT RADIO FFH",
+	"provider": "MEDIA BROADCAST",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054915,
+	"last_seen": 1445054915,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1024,
+	"pmt": 109,
+	"stream": [
+		{
+			"pid": 1024,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		}
+	]
+}

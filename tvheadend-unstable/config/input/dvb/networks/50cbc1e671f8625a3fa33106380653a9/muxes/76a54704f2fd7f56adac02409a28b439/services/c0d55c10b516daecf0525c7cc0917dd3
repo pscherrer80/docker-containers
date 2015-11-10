@@ -1,0 +1,107 @@
+{
+	"sid": 29,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"svcname": "RTL Passion",
+	"provider": "SKY",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 6730,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445187955,
+	"last_seen": 1447102081,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 255,
+	"pmt": 99,
+	"stream": [
+		{
+			"pid": 32,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 255,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 256,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 257,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 1
+		},
+		{
+			"pid": 5962,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 5890
+				}
+			]
+		},
+		{
+			"pid": 8148,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6199
+				}
+			]
+		},
+		{
+			"pid": 6218,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6195
+				}
+			]
+		},
+		{
+			"pid": 6986,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2500
+				}
+			]
+		},
+		{
+			"pid": 8010,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2479
+				}
+			]
+		},
+		{
+			"pid": 6730,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2444
+				}
+			]
+		}
+	]
+}

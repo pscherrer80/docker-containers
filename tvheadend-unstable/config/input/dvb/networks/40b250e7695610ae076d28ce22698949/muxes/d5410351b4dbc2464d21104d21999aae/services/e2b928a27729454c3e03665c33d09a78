@@ -1,0 +1,22 @@
+{
+	"sid": 4450,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "EPG",
+	"provider": "nc+",
+	"dvb_servicetype": 128,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055470,
+	"last_seen": 1445055470,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 0,
+	"pmt": 0,
+	"stream": [
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"sid": 402,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"svcname": "Big Brother 24 Stunden live",
+	"provider": "SKY",
+	"dvb_servicetype": 22,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055003,
+	"last_seen": 1447102081,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 4607,
+	"pmt": 113,
+	"stream": [
+		{
+			"pid": 32,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 4607,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 4608,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 6289,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6195
+				}
+			]
+		},
+		{
+			"pid": 7057,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2500
+				}
+			]
+		},
+		{
+			"pid": 6801,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2444
+				}
+			]
+		}
+	]
+}

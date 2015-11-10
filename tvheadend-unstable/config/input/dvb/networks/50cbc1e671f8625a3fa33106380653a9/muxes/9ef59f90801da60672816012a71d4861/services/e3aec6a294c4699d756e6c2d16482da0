@@ -1,0 +1,82 @@
+{
+	"sid": 57,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"svcname": "A&E",
+	"provider": "SKY",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054965,
+	"last_seen": 1447102081,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2047,
+	"pmt": 103,
+	"stream": [
+		{
+			"pid": 2047,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 2048,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 2049,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 1
+		},
+		{
+			"pid": 5935,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 5890
+				}
+			]
+		},
+		{
+			"pid": 6191,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6195
+				}
+			]
+		},
+		{
+			"pid": 6959,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2500
+				}
+			]
+		},
+		{
+			"pid": 6703,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2444
+				}
+			]
+		}
+	]
+}

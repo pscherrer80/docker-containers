@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "ProSieben HD",
+	"number": 14,
+	"icon": "picon://pro_sieben_de_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"51653c98aa8d1c020c9b652bfe6a948f"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

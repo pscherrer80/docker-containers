@@ -1,0 +1,34 @@
+{
+	"sid": 13312,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "R9 Oesterreich HD",
+	"provider": "ORS",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054679,
+	"last_seen": 1446393954,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3120,
+	"pmt": 312,
+	"stream": [
+		{
+			"pid": 3120,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 3121,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		}
+	]
+}
