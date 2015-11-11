@@ -4,7 +4,6 @@ Additional files:<br>
 ffmpeg and ffpipe.sh to get IPTV-Channels with X-Forward working<br>
 XMLTV-package to grab additional epgdata<br>
 .configuration within dockerfile is needed<br>
-
 <br>
 Configuration tv_grab_eu_epgdata:<br>
 docker exec -it <container_name> bash<br>
