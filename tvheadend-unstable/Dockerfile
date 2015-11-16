@@ -21,7 +21,7 @@ libavahi-client-dev zlib1g-dev libcurl4-gnutls-dev python \
 liburiparser1 liburiparser-dev gettext \
 libhdhomerun-dev dvb-apps && \
 cd /tmp && git clone https://github.com/tvheadend/tvheadend.git && cd tvheadend && \
-git checkout 82776a4 && ./configure --enable-libffmpeg_static && make && make install && \
+git checkout fe4d7f8 && ./configure --enable-libffmpeg_static && make && make install && \
 rm -r /tmp/tvheadend && apt-get purge -qq build-essential pkg-config git && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 9981 9982
@@ -38,6 +38,7 @@ RUN chmod +x /etc/service/tvheadend/run
 #Add ffmpeg to /usr/bin/
 ADD ffmpeg.gz /usr/bin/
 RUN gunzip /usr/bin/ffmpeg.gz
+RUN chmod a+x /usr/bin/ffmpeg
 
 #Add ffpipe.sh to /usr/local/bin/
 ADD ffpipe.sh /usr/local/bin/
