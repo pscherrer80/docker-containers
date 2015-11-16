@@ -42,6 +42,7 @@ RUN chmod a+x /usr/bin/ffmpeg
 
 #Add ffpipe.sh to /usr/local/bin/
 ADD ffpipe.sh /usr/local/bin/
+RUN chmod a+x /usr/local/bin/ffpipe.sh
 
 #Add XMLTV to use other grabber
 #Use mythbuntu repo 'cause ubuntu repo is to old
