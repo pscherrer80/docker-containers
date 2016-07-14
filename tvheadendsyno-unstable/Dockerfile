@@ -21,7 +21,6 @@ git checkout f34fac1 && ./configure --enable-libffmpeg_static && make && make in
 rm -r /tmp/tvheadend && apt-get purge -qq build-essential pkg-config git && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 9981 9982
-
 VOLUME /config \
        /recordings \
 	   /data
