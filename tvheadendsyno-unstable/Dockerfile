@@ -28,7 +28,6 @@ apt-get install -qy --no-install-recommends \
 #	Compile and install				#
 #	tvheadend						#
 #####################################
-
 pushd /tmp/
 git clone https://github.com/tvheadend/tvheadend.git 
 popd
