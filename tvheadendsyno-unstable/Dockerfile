@@ -10,15 +10,34 @@ ENV HOME /root
 CMD ["/sbin/my_init"]
 
 # Install dependencies, build and install tvheadend
-RUN apt-get update -qq && \
-apt-get install -qy \
-build-essential pkg-config libssl-dev git bzip2 wget \
-libavahi-client-dev zlib1g-dev libcurl4-gnutls-dev python \
-liburiparser1 liburiparser-dev gettext \
-libhdhomerun-dev dvb-apps && \
-cd /tmp && git clone https://github.com/tvheadend/tvheadend.git && cd tvheadend && \
-git checkout f34fac1 && ./configure --enable-libffmpeg_static && make && make install && \
-rm -r /tmp/tvheadend && apt-get purge -qq build-essential pkg-config git && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+apt-get update -qq
+apt-get install -qy --no-install-recommends \
+				build-essential pkg-config libssl-dev git bzip2 wget cmake\
+				libavahi-client-dev zlib1g-dev libcurl4-gnutls-dev python \
+				liburiparser1 liburiparser-dev gettext \
+				libhdhomerun-dev dvb-apps \
+				libarchive-zip-perl libdata-dump-perl libdate-manip-perl libdatetime-format-iso8601-perl libdatetime-format-strptime-perl \
+				libdatetime-perl libdatetime-timezone-perl libhtml-parser-perl libhtml-tableextract-perl libhtml-tree-perl \
+				libhttp-cache-transparent-perl libio-compress-perl libio-stringy-perl libjson-perl libparse-recdescent-perl \
+				libsoap-lite-perl libterm-readkey-perl libtext-bidi-perl libtext-iconv-perl libwww-mechanize-perl \
+				libwww-perl libxml-dom-perl libxml-libxml-perl libxml-libxslt-perl libxml-parser-perl libxml-twig-perl \
+				libxml-writer-perl libxmltv-perl perl perl-modules libxml-treepp-perl liblingua-en-numbers-ordinate-perl
+
+
+#####################################
+#	Compile and install				#
+#	tvheadend						#
+#####################################
+
+pushd /tmp/
+git clone https://github.com/tvheadend/tvheadend.git 
+popd
+pushd /tmp/tvheadend
+git checkout f34fac1a 
+./configure --enable-libffmpeg_static
+make 
+make install
+popd
 
 EXPOSE 9981 9982
 VOLUME /config \
