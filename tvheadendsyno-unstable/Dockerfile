@@ -10,8 +10,8 @@ ENV HOME /root
 CMD ["/sbin/my_init"]
 
 # Install dependencies, build and install tvheadend
-apt-get update -qq
-apt-get install -qy --no-install-recommends \
+RUN apt-get update -qq
+RUN apt-get install -qy --no-install-recommends \
 				build-essential pkg-config libssl-dev git bzip2 wget cmake\
 				libavahi-client-dev zlib1g-dev libcurl4-gnutls-dev python \
 				liburiparser1 liburiparser-dev gettext \
@@ -29,13 +29,13 @@ apt-get install -qy --no-install-recommends \
 #	tvheadend						#
 #####################################
 pushd /tmp/
-git clone https://github.com/tvheadend/tvheadend.git 
+RUN git clone https://github.com/tvheadend/tvheadend.git 
 popd
 pushd /tmp/tvheadend
-git checkout f34fac1a 
-./configure --enable-libffmpeg_static
-make 
-make install
+RUN git checkout f34fac1a 
+RUN ./configure --enable-libffmpeg_static
+RUN make 
+RUN make install
 popd
 
 EXPOSE 9981 9982
