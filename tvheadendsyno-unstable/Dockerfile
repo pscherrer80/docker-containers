@@ -28,15 +28,15 @@ RUN apt-get install -qy --no-install-recommends \
 #	Compile and install				#
 #	tvheadend						#
 #####################################
-pushd /tmp/
+RUN pushd /tmp/
 RUN git clone https://github.com/tvheadend/tvheadend.git 
-popd
-pushd /tmp/tvheadend
+RUN popd
+RUN pushd /tmp/tvheadend
 RUN git checkout f34fac1a 
 RUN ./configure --enable-libffmpeg_static
 RUN make 
 RUN make install
-popd
+RUN popd
 
 EXPOSE 9981 9982
 VOLUME /config \
