@@ -1,0 +1,125 @@
+{
+	"sid": 419,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "France O",
+	"provider": "Eutelsat",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055080,
+	"last_seen": 1445055080,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 791,
+	"pmt": 790,
+	"stream": [
+		{
+			"pid": 791,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 792,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 795,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "fre",
+			"compositionid": 1,
+			"ancillartyid": 1
+		},
+		{
+			"pid": 6791,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6163
+				},
+				{
+					"caid": 256,
+					"providerid": 104
+				}
+			]
+		},
+		{
+			"pid": 6792,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6169
+				},
+				{
+					"caid": 256,
+					"providerid": 109
+				}
+			]
+		},
+		{
+			"pid": 6793,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207136
+				}
+			]
+		},
+		{
+			"pid": 6798,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272384
+				}
+			]
+		},
+		{
+			"pid": 6794,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272416
+				}
+			]
+		},
+		{
+			"pid": 6795,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		},
+		{
+			"pid": 6796,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		}
+	]
+}

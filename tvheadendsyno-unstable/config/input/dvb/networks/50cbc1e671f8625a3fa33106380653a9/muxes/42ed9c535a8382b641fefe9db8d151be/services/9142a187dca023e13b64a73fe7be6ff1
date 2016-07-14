@@ -1,0 +1,62 @@
+{
+	"sid": 30374,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "MULTIFUT. 9",
+	"provider": "CANAL+",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054796,
+	"last_seen": 1445715017,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 4005,
+	"pmt": 1048,
+	"stream": [
+		{
+			"pid": 4005,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 4006,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "spa",
+			"audio_type": 0
+		},
+		{
+			"pid": 4007,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		},
+		{
+			"pid": 1602,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 16646
+				}
+			]
+		},
+		{
+			"pid": 2602,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6160
+				}
+			]
+		}
+	]
+}

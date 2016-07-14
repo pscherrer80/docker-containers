@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "ENCRYPTED  SERVICES",
+	"source": "dvb-bouquet://dvbs,13E,1C84,0018",
+	"services": {
+	},
+	"services_seen": 85,
+	"comment": "12169H in Hotbird",
+	"lcn_off": 0
+}

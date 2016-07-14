@@ -1,0 +1,32 @@
+{
+	"0bb72802781725e71badbabb1b543856": {
+		"enabled": true,
+		"index": 0,
+		"name": "TV channels",
+		"internal": false,
+		"private": false,
+		"icon": "",
+		"titled_icon": false,
+		"comment": ""
+	},
+	"91a784d9ba2d913df542951d7ec4a42c": {
+		"enabled": true,
+		"index": 0,
+		"name": "HDTV",
+		"internal": false,
+		"private": false,
+		"icon": "",
+		"titled_icon": false,
+		"comment": ""
+	},
+	"8b84724a87681e042bfbd29a008987f2": {
+		"enabled": true,
+		"index": 0,
+		"name": "SDTV",
+		"internal": false,
+		"private": false,
+		"icon": "",
+		"titled_icon": false,
+		"comment": ""
+	}
+}

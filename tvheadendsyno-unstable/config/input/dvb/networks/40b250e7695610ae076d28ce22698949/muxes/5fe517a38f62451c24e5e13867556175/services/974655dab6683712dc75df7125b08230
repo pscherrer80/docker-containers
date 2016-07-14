@@ -1,0 +1,83 @@
+{
+	"sid": 4043,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Fox Comedy",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055594,
+	"last_seen": 1445055594,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3084,
+	"pmt": 273,
+	"stream": [
+		{
+			"pid": 3084,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3085,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 3086,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		},
+		{
+			"pid": 3103,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 8969,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "ita",
+			"parentpid": 3103
+		},
+		{
+			"pid": 1319,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1320,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1321,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		}
+	]
+}

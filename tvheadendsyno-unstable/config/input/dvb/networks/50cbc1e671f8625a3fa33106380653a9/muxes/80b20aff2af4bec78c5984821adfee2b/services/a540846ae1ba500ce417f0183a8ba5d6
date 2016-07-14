@@ -1,0 +1,47 @@
+{
+	"sid": 12040,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "SUPER RTL",
+	"provider": "CBC",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054865,
+	"last_seen": 1446656518,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 165,
+	"pmt": 45,
+	"stream": [
+		{
+			"pid": 165,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 120,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 65,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 66,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "ger",
+			"compositionid": 1,
+			"ancillartyid": 2
+		}
+	]
+}

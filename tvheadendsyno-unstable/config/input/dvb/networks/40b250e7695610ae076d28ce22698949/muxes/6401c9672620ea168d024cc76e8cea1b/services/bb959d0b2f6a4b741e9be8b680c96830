@@ -1,0 +1,99 @@
+{
+	"sid": 15915,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Polsat News HD",
+	"provider": "Cyfrowy Polsat S.A.",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055495,
+	"last_seen": 1445055495,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 263,
+	"pmt": 32,
+	"stream": [
+		{
+			"pid": 263,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 519,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		},
+		{
+			"pid": 2055,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 2564,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 104
+				},
+				{
+					"caid": 6163
+				}
+			]
+		},
+		{
+			"pid": 2311,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 3076,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2817
+				}
+			]
+		},
+		{
+			"pid": 2820,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207360
+				}
+			]
+		},
+		{
+			"pid": 2072,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6276
+				}
+			]
+		}
+	]
+}

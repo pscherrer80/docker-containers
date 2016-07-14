@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "Live bouquet ID: Region 2",
+	"source": "dvb-bskyb://dvbs,13E,6250,2",
+	"services": {
+	},
+	"services_seen": 476,
+	"comment": "11958V in Hotbird",
+	"lcn_off": 0
+}

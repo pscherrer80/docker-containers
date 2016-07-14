@@ -1,0 +1,6 @@
+{
+	"enabled": true,
+	"ignore_sslcert": false,
+	"ok_period": 168,
+	"fail_period": 24
+}

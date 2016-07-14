@@ -1,0 +1,68 @@
+{
+	"sid": 28014,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "zdf_neo",
+	"provider": "ZDFvision",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054846,
+	"last_seen": 1446747579,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 660,
+	"pmt": 650,
+	"stream": [
+		{
+			"pid": 660,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 670,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 671,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "mis",
+			"audio_type": 0
+		},
+		{
+			"pid": 675,
+			"type": "AC3",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 672,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "mul",
+			"audio_type": 0
+		},
+		{
+			"pid": 680,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 681,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "ger",
+			"compositionid": 1,
+			"ancillartyid": 1
+		}
+	]
+}

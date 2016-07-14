@@ -1,0 +1,117 @@
+{
+	"sid": 3,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "13 Ulica (Street) Poland",
+	"provider": "Arqiva",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055380,
+	"last_seen": 1445055380,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1301,
+	"pmt": 263,
+	"stream": [
+		{
+			"pid": 1351,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 271872
+				}
+			]
+		},
+		{
+			"pid": 1352,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6163
+				},
+				{
+					"caid": 256,
+					"providerid": 104
+				}
+			]
+		},
+		{
+			"pid": 1353,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 1354,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 1355,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207360
+				}
+			]
+		},
+		{
+			"pid": 1356,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2817
+				}
+			]
+		},
+		{
+			"pid": 1357,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6276
+				}
+			]
+		},
+		{
+			"pid": 1301,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 1302,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		},
+		{
+			"pid": 1303,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

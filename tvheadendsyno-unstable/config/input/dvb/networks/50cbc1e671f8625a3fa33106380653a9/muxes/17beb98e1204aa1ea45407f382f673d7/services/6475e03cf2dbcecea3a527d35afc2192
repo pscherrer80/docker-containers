@@ -1,0 +1,35 @@
+{
+	"sid": 18,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"svcname": "Sky Select",
+	"provider": "SKY",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445187881,
+	"last_seen": 1447102081,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2815,
+	"pmt": 103,
+	"stream": [
+		{
+			"pid": 2815,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 2816,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		}
+	]
+}

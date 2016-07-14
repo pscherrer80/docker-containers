@@ -1,0 +1,61 @@
+{
+	"sid": 7325,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Crime + Investigation",
+	"provider": "Arqiva",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055412,
+	"last_seen": 1445055412,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3524,
+	"pmt": 270,
+	"stream": [
+		{
+			"pid": 1390,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 1389,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 3524,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3644,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		},
+		{
+			"pid": 3664,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

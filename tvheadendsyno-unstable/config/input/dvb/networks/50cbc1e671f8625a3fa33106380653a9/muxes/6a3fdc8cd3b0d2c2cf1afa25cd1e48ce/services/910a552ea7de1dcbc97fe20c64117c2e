@@ -1,0 +1,41 @@
+{
+	"sid": 10080,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Sonlife Broadcasting Network",
+	"provider": "SES ASTRA",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054734,
+	"last_seen": 1446656518,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1051,
+	"pmt": 1050,
+	"stream": [
+		{
+			"pid": 1051,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 1052,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		},
+		{
+			"pid": 1053,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		}
+	]
+}

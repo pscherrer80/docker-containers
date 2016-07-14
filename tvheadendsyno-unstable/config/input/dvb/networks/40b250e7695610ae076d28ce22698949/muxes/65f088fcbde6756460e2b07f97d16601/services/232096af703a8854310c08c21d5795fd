@@ -1,0 +1,28 @@
+{
+	"sid": 1711,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Chaine 2",
+	"provider": "GLOBECAST",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055425,
+	"last_seen": 1445055425,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1130,
+	"pmt": 1100,
+	"stream": [
+		{
+			"pid": 1130,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

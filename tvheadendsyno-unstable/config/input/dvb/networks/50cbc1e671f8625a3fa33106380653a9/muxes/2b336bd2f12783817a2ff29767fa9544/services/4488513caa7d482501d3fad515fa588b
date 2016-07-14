@@ -1,0 +1,68 @@
+{
+	"sid": 12865,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "La Premiere",
+	"provider": "M7 Group",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054943,
+	"last_seen": 1445054943,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 115,
+	"pmt": 365,
+	"stream": [
+		{
+			"pid": 1665,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 108
+				},
+				{
+					"caid": 6168
+				}
+			]
+		},
+		{
+			"pid": 1685,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 109
+				},
+				{
+					"caid": 6169
+				}
+			]
+		},
+		{
+			"pid": 1765,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		},
+		{
+			"pid": 115,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		}
+	]
+}

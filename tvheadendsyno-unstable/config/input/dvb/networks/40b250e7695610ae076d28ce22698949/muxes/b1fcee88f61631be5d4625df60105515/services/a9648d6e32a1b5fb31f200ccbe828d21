@@ -1,0 +1,83 @@
+{
+	"sid": 11355,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Cartoon +1",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055490,
+	"last_seen": 1445055490,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 168,
+	"pmt": 1101,
+	"stream": [
+		{
+			"pid": 168,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 400,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 401,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		},
+		{
+			"pid": 701,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 8970,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "ita",
+			"parentpid": 701
+		},
+		{
+			"pid": 1601,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1701,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1801,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		}
+	]
+}

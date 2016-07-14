@@ -1,0 +1,20 @@
+{
+	"priority": 0,
+	"spriority": 0,
+	"iptv_url": "pipe:///usr/bin/ffmpeg -loglevel fatal -re -headers Forwarded-For=81.17.18.55/=/:$’\\r\\n’ -i http://hls.tv.iptv.ink/tvoch@656416.m3u8 -vcodec copy -acodec copy -metadata service_provider=IPTV -metadata service_name=Tele_Ostschweiz -f mpegts pipe:1",
+	"iptv_substitute": false,
+	"iptv_interface": "eth0",
+	"iptv_atsc": false,
+	"iptv_muxname": "Tele Ostschweiz",
+	"iptv_sname": "",
+	"iptv_respawn": false,
+	"iptv_kill": 0,
+	"iptv_kill_timeout": 5,
+	"enabled": true,
+	"epg": 0,
+	"onid": 65535,
+	"tsid": 65535,
+	"scan_result": 2,
+	"pmt_06_ac3": 2,
+	"eit_tsid_nocheck": false
+}

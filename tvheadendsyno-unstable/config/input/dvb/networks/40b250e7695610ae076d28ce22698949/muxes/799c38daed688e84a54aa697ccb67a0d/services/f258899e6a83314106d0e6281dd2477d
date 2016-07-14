@@ -1,0 +1,58 @@
+{
+	"sid": 13910,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Dorcel T.V.",
+	"provider": "AB sat",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055187,
+	"last_seen": 1445055187,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3902,
+	"pmt": 3911,
+	"stream": [
+		{
+			"pid": 523,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1540
+				}
+			]
+		},
+		{
+			"pid": 3902,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3903,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 3904,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "spa",
+			"audio_type": 0
+		},
+		{
+			"pid": 3905,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

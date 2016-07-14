@@ -1,0 +1,66 @@
+{
+	"sid": 12899,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Eurosport1 HD NL",
+	"provider": "M7 Group",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054943,
+	"last_seen": 1445054943,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 599,
+	"pmt": 399,
+	"stream": [
+		{
+			"pid": 2699,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 106
+				},
+				{
+					"caid": 6167
+				}
+			]
+		},
+		{
+			"pid": 3199,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		},
+		{
+			"pid": 599,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 109,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "dut",
+			"audio_type": 0
+		},
+		{
+			"pid": 110,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

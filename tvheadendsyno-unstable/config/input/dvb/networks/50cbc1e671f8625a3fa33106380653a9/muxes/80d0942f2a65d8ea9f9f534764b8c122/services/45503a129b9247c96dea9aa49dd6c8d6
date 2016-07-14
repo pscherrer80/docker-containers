@@ -1,0 +1,215 @@
+{
+	"sid": 17022,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "ANIMAUX",
+	"provider": "AB SAT",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054879,
+	"last_seen": 1446656518,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 122,
+	"pmt": 822,
+	"stream": [
+		{
+			"pid": 122,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 322,
+			"type": "AC3",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 522,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "fre",
+			"compositionid": 1,
+			"ancillartyid": 1
+		},
+		{
+			"pid": 622,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 9080,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "fre",
+			"parentpid": 622
+		},
+		{
+			"pid": 2422,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13073
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 2522,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13079
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 2222,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 109
+				},
+				{
+					"caid": 6169
+				}
+			]
+		},
+		{
+			"pid": 1022,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207168
+				}
+			]
+		},
+		{
+			"pid": 1122,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207136
+				}
+			]
+		},
+		{
+			"pid": 1322,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 206896
+				}
+			]
+		},
+		{
+			"pid": 1522,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272384
+				}
+			]
+		},
+		{
+			"pid": 1622,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272416
+				}
+			]
+		},
+		{
+			"pid": 2022,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 275248
+				}
+			]
+		},
+		{
+			"pid": 2622,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6243
+				}
+			]
+		},
+		{
+			"pid": 2822,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6243
+				}
+			]
+		},
+		{
+			"pid": 1822,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		},
+		{
+			"pid": 3022,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		},
+		{
+			"pid": 2322,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 43041
+				}
+			]
+		}
+	]
+}

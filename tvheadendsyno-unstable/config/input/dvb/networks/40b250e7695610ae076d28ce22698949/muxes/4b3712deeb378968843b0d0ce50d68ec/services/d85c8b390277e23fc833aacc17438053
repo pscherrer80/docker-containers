@@ -1,0 +1,161 @@
+{
+	"sid": 31,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Nickelodeon HD",
+	"provider": "Cyfrowy Polsat S.A.",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055364,
+	"last_seen": 1445055364,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1056,
+	"pmt": 1058,
+	"stream": [
+		{
+			"pid": 1056,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 1059,
+			"type": "AC3",
+			"position": 0,
+			"language": "tur",
+			"audio_type": 0
+		},
+		{
+			"pid": 1060,
+			"type": "AC3",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		},
+		{
+			"pid": 1061,
+			"type": "AC3",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		},
+		{
+			"pid": 1062,
+			"type": "AC3",
+			"position": 0,
+			"language": "rus",
+			"audio_type": 0
+		},
+		{
+			"pid": 1074,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 329216
+				}
+			]
+		},
+		{
+			"pid": 1069,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 1070,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 1071,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 104
+				},
+				{
+					"caid": 6163
+				}
+			]
+		},
+		{
+			"pid": 1072,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2817
+				}
+			]
+		},
+		{
+			"pid": 1073,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207360
+				}
+			]
+		},
+		{
+			"pid": 1075,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2986
+				}
+			]
+		},
+		{
+			"pid": 1076,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1572
+				}
+			]
+		},
+		{
+			"pid": 1077,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6276
+				}
+			]
+		},
+		{
+			"pid": 1078,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2353
+				}
+			]
+		}
+	]
+}

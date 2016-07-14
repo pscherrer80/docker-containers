@@ -1,0 +1,44 @@
+{
+	"sid": 3,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Al Aoula",
+	"provider": "SNRT",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055454,
+	"last_seen": 1445055454,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 40,
+	"pmt": 37,
+	"stream": [
+		{
+			"pid": 8191,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 9728
+				}
+			]
+		},
+		{
+			"pid": 40,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 42,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		}
+	]
+}

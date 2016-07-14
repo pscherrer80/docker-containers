@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "TNT Serie HD",
+	"number": 84,
+	"icon": "picon://tnt_serie_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"6fa67bed795454639306c4ccbba52ce6"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

@@ -1,0 +1,29 @@
+{
+	"sid": 38,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "ESC R3",
+	"provider": "ARABSAT",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055102,
+	"last_seen": 1445055102,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8191,
+	"pmt": 5047,
+	"stream": [
+		{
+			"pid": 1501,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"sid": 3203,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "TV K-C",
+	"provider": "STN Ltd",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055133,
+	"last_seen": 1445055133,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 206,
+	"pmt": 83,
+	"stream": [
+		{
+			"pid": 303,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 200704
+				}
+			]
+		},
+		{
+			"pid": 206,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 207,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "slv",
+			"audio_type": 0
+		},
+		{
+			"pid": 202,
+			"type": "TELETEXT",
+			"position": 0
+		}
+	]
+}

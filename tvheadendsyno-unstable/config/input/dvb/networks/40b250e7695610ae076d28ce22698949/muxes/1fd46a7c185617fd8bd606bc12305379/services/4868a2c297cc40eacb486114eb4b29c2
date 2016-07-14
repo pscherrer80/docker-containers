@@ -1,0 +1,128 @@
+{
+	"sid": 13101,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Polsat",
+	"provider": "Cyfrowy Polsat S.A.",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055522,
+	"last_seen": 1445055522,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 257,
+	"pmt": 33,
+	"stream": [
+		{
+			"pid": 257,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 258,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		},
+		{
+			"pid": 259,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 3
+		},
+		{
+			"pid": 264,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 8970,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "pol",
+			"parentpid": 264
+		},
+		{
+			"pid": 266,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 267,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 268,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6163
+				},
+				{
+					"caid": 256,
+					"providerid": 104
+				}
+			]
+		},
+		{
+			"pid": 269,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2816
+				}
+			]
+		},
+		{
+			"pid": 270,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2817
+				}
+			]
+		},
+		{
+			"pid": 271,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207360
+				}
+			]
+		},
+		{
+			"pid": 272,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6276
+				}
+			]
+		}
+	]
+}

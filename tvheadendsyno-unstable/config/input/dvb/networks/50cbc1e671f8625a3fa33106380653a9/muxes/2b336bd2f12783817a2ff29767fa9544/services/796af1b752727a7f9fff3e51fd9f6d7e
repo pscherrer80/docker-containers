@@ -1,0 +1,68 @@
+{
+	"sid": 12885,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Brazzers TV CZ",
+	"provider": "M7 Group",
+	"dvb_servicetype": 22,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054943,
+	"last_seen": 1445054943,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8190,
+	"pmt": 385,
+	"stream": [
+		{
+			"pid": 1714,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 3478
+				}
+			]
+		},
+		{
+			"pid": 1724,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1572
+				}
+			]
+		},
+		{
+			"pid": 2610,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 106
+				},
+				{
+					"caid": 6167
+				}
+			]
+		},
+		{
+			"pid": 582,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 132,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

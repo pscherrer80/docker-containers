@@ -1,0 +1,84 @@
+{
+	"sid": 3655,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "GIALLO",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055308,
+	"last_seen": 1445055308,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2537,
+	"pmt": 272,
+	"stream": [
+		{
+			"pid": 1301,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1302,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1303,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		},
+		{
+			"pid": 1970,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6205
+				}
+			]
+		},
+		{
+			"pid": 1980,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6206
+				}
+			]
+		},
+		{
+			"pid": 2537,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 2529,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		}
+	]
+}

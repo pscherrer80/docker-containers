@@ -1,0 +1,124 @@
+{
+	"sid": 13865,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "EUROSPORT PL",
+	"provider": "Eutelsat",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055396,
+	"last_seen": 1445055396,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2577,
+	"pmt": 2847,
+	"stream": [
+		{
+			"pid": 2562,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		},
+		{
+			"pid": 2565,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		},
+		{
+			"pid": 2577,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 2578,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 2590,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "spa",
+			"audio_type": 0
+		},
+		{
+			"pid": 2592,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 2633,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 141824
+				}
+			]
+		},
+		{
+			"pid": 2636,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 196864
+				}
+			]
+		},
+		{
+			"pid": 2637,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 2640,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207360
+				}
+			]
+		},
+		{
+			"pid": 2650,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 2631,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 332288
+				}
+			]
+		}
+	]
+}

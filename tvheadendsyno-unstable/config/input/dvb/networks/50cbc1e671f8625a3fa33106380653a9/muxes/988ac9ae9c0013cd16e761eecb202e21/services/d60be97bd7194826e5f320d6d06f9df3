@@ -1,0 +1,54 @@
+{
+	"sid": 1793,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"svcname": "Disney Channel",
+	"provider": "BetaDigital",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054989,
+	"last_seen": 1447102081,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2047,
+	"pmt": 115,
+	"stream": [
+		{
+			"pid": 36,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 2047,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 2048,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 2051,
+			"type": "AC3",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 8969,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "ger",
+			"parentpid": 36
+		}
+	]
+}

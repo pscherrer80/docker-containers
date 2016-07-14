@@ -1,0 +1,83 @@
+{
+	"sid": 7461,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "BRAZZERS TV Europe",
+	"provider": "Harmonic",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055435,
+	"last_seen": 1445055435,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 7001,
+	"pmt": 7098,
+	"stream": [
+		{
+			"pid": 7091,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207136
+				}
+			]
+		},
+		{
+			"pid": 7090,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1556
+				}
+			]
+		},
+		{
+			"pid": 7093,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1540
+				}
+			]
+		},
+		{
+			"pid": 7092,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 206080
+				}
+			]
+		},
+		{
+			"pid": 7001,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 7011,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		},
+		{
+			"pid": 7012,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		}
+	]
+}

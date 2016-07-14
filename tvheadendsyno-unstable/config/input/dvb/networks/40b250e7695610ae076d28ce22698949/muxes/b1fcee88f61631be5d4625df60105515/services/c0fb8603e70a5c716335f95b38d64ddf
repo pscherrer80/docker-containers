@@ -1,0 +1,96 @@
+{
+	"sid": 11316,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "DMAX",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055490,
+	"last_seen": 1445055490,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 167,
+	"pmt": 1106,
+	"stream": [
+		{
+			"pid": 167,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 428,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 703,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 8969,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "ita",
+			"parentpid": 703
+		},
+		{
+			"pid": 1607,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1707,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1807,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		},
+		{
+			"pid": 1907,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6205
+				}
+			]
+		},
+		{
+			"pid": 1927,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6206
+				}
+			]
+		}
+	]
+}

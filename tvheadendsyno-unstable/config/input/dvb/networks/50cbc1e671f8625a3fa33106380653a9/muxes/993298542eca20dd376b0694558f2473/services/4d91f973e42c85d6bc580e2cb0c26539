@@ -1,0 +1,29 @@
+{
+	"sid": 7289,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Radio Horeb",
+	"provider": "Eurociel",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054911,
+	"last_seen": 1445054911,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1289,
+	"pmt": 7289,
+	"stream": [
+		{
+			"pid": 1289,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		}
+	]
+}

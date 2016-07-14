@@ -1,0 +1,53 @@
+{
+	"sid": 28486,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "SR Fernsehen",
+	"provider": "ARD",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054876,
+	"last_seen": 1446747579,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1301,
+	"pmt": 1300,
+	"stream": [
+		{
+			"pid": 1301,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 1302,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 1303,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "mis",
+			"audio_type": 0
+		},
+		{
+			"pid": 1304,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 8342,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "ger",
+			"parentpid": 1304
+		}
+	]
+}

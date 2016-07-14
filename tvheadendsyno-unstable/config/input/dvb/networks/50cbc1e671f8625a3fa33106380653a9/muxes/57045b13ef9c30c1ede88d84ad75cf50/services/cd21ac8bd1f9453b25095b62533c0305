@@ -1,0 +1,107 @@
+{
+	"sid": 20,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"svcname": "Sky Emotion",
+	"provider": "SKY",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 6684,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445187565,
+	"last_seen": 1447102081,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2815,
+	"pmt": 97,
+	"stream": [
+		{
+			"pid": 32,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 2815,
+			"type": "MPEG2VIDEO",
+			"position": 0,
+			"width": 720,
+			"height": 576,
+			"duration": 3600
+		},
+		{
+			"pid": 2816,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 2817,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 1
+		},
+		{
+			"pid": 2819,
+			"type": "AC3",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 5916,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 5890
+				}
+			]
+		},
+		{
+			"pid": 6172,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6195
+				}
+			]
+		},
+		{
+			"pid": 6940,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2500
+				}
+			]
+		},
+		{
+			"pid": 7964,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2479
+				}
+			]
+		},
+		{
+			"pid": 6684,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2444
+				}
+			]
+		}
+	]
+}

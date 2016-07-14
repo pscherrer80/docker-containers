@@ -1,0 +1,34 @@
+{
+	"sid": 7327,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "NHK World",
+	"provider": "Arqiva",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055412,
+	"last_seen": 1445055412,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3527,
+	"pmt": 259,
+	"stream": [
+		{
+			"pid": 3527,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3647,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

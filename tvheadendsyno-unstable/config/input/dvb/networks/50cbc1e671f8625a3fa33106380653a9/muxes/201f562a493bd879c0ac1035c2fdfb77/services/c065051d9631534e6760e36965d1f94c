@@ -1,0 +1,34 @@
+{
+	"sid": 12624,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Fotohandy",
+	"provider": "MEDIA BROADCAST",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054915,
+	"last_seen": 1445054915,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 224,
+	"pmt": 124,
+	"stream": [
+		{
+			"pid": 224,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 324,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		}
+	]
+}

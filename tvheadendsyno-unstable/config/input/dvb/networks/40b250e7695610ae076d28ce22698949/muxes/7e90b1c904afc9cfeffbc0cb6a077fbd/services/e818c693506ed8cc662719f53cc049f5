@@ -1,0 +1,34 @@
+{
+	"sid": 2,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Al Aoula Inter+L",
+	"provider": "SNRT",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055454,
+	"last_seen": 1445055454,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 35,
+	"pmt": 33,
+	"stream": [
+		{
+			"pid": 35,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 36,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ara",
+			"audio_type": 1
+		}
+	]
+}

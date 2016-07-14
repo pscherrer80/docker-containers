@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "TNTSAT pro",
+	"source": "dvb-bouquet://dvbs,19.2E,043C,C013",
+	"services": {
+	},
+	"services_seen": 14,
+	"comment": "12090V in Astra",
+	"lcn_off": 0
+}

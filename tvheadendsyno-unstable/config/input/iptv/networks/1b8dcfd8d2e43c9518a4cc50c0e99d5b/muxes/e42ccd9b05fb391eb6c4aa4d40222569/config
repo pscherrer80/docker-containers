@@ -1,0 +1,15 @@
+{
+	"priority": 0,
+	"spriority": 0,
+	"iptv_url": "pipe:///usr/local/bin/ffpipe.sh TeleTop_TG http://hls.tv.iptv.ink/teletopch@665431.m3u8|X-Forwarded-For=81.17.18.55",
+	"iptv_interface": "eth0",
+	"iptv_atsc": false,
+	"iptv_sname": "TeleTop TG",
+	"iptv_respawn": false,
+	"enabled": true,
+	"epg": 1,
+	"onid": 65535,
+	"tsid": 65535,
+	"scan_result": 2,
+	"pmt_06_ac3": 0
+}

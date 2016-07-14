@@ -1,0 +1,90 @@
+{
+	"sid": 15307,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Disney XD",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055665,
+	"last_seen": 1445055665,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 164,
+	"pmt": 1105,
+	"stream": [
+		{
+			"pid": 164,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 416,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 417,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		},
+		{
+			"pid": 710,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 8969,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "ita",
+			"parentpid": 710
+		},
+		{
+			"pid": 9069,
+			"type": "TEXTSUB",
+			"position": 1001,
+			"language": "eng",
+			"parentpid": 710
+		},
+		{
+			"pid": 1604,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1704,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1804,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		}
+	]
+}

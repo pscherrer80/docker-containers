@@ -1,0 +1,139 @@
+{
+	"sid": 4058,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Animax",
+	"provider": "M7 Group",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054899,
+	"last_seen": 1445054899,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 558,
+	"pmt": 2158,
+	"stream": [
+		{
+			"pid": 4028,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6195
+				}
+			]
+		},
+		{
+			"pid": 4038,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 5890
+				}
+			]
+		},
+		{
+			"pid": 4048,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2500
+				}
+			]
+		},
+		{
+			"pid": 4058,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2444
+				}
+			]
+		},
+		{
+			"pid": 3038,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 3477
+				}
+			]
+		},
+		{
+			"pid": 3048,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1608
+				}
+			]
+		},
+		{
+			"pid": 5038,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 3480
+				}
+			]
+		},
+		{
+			"pid": 5048,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1616
+				}
+			]
+		},
+		{
+			"pid": 1828,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 106
+				},
+				{
+					"caid": 6167
+				}
+			]
+		},
+		{
+			"pid": 3128,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		},
+		{
+			"pid": 558,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 128,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		}
+	]
+}

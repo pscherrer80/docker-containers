@@ -1,0 +1,105 @@
+{
+	"sid": 13784,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"svcname": "PINK O TV",
+	"provider": "Telefonica Servicios Audiovisuales",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055332,
+	"last_seen": 1447012215,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 4720,
+	"pmt": 38,
+	"stream": [
+		{
+			"pid": 4720,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 4721,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 4722,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		},
+		{
+			"pid": 6007,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 276480
+				}
+			]
+		},
+		{
+			"pid": 1336,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272128
+				}
+			]
+		},
+		{
+			"pid": 1401,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 335360
+				}
+			]
+		},
+		{
+			"pid": 1377,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1607
+				}
+			]
+		},
+		{
+			"pid": 1411,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6151
+				}
+			]
+		},
+		{
+			"pid": 1889,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2817
+				}
+			]
+		}
+	]
+}

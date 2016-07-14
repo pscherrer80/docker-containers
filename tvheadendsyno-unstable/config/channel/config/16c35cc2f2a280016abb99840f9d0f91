@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "Romance TV",
+	"number": 67,
+	"icon": "picon://romance_tv_de.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"ad0b7bee10bef2dc0d554622c27d2398"
+	],
+	"tags": [
+		"8b84724a87681e042bfbd29a008987f2",
+		"0bb72802781725e71badbabb1b543856"
+	],
+	"bouquet": ""
+}

@@ -1,0 +1,68 @@
+{
+	"sid": 11110,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "ZDF HD",
+	"provider": "ZDFvision",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054695,
+	"last_seen": 1446747579,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 6110,
+	"pmt": 6100,
+	"stream": [
+		{
+			"pid": 6110,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 6120,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 6121,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "mis",
+			"audio_type": 0
+		},
+		{
+			"pid": 6122,
+			"type": "AC3",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 6123,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "mul",
+			"audio_type": 0
+		},
+		{
+			"pid": 6130,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 6131,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "ger",
+			"compositionid": 1,
+			"ancillartyid": 1
+		}
+	]
+}

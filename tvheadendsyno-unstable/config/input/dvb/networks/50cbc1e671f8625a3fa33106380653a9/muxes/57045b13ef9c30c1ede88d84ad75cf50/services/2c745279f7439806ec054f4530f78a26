@@ -1,0 +1,21 @@
+{
+	"sid": 3847,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"dvb_servicetype": 0,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445187565,
+	"last_seen": 1447011820,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8191,
+	"pmt": 146,
+	"stream": [
+	]
+}

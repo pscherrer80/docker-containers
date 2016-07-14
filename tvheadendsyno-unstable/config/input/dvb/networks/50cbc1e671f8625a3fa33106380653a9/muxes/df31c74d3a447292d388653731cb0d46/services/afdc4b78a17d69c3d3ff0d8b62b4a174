@@ -1,0 +1,167 @@
+{
+	"sid": 28657,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "VH1 Classic",
+	"provider": "MTV Networks Europe",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054820,
+	"last_seen": 1445054820,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8190,
+	"pmt": 317,
+	"stream": [
+		{
+			"pid": 8107,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 329216
+				}
+			]
+		},
+		{
+			"pid": 6426,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6168
+				},
+				{
+					"caid": 256,
+					"providerid": 108
+				}
+			]
+		},
+		{
+			"pid": 6436,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6169
+				},
+				{
+					"caid": 256,
+					"providerid": 109
+				}
+			]
+		},
+		{
+			"pid": 6416,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6167
+				},
+				{
+					"caid": 256,
+					"providerid": 106
+				}
+			]
+		},
+		{
+			"pid": 2000,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2816
+				}
+			]
+		},
+		{
+			"pid": 6203,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 3478
+				}
+			]
+		},
+		{
+			"pid": 6213,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1572
+				}
+			]
+		},
+		{
+			"pid": 7036,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		},
+		{
+			"pid": 7986,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 3477
+				}
+			]
+		},
+		{
+			"pid": 7966,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1608
+				}
+			]
+		},
+		{
+			"pid": 6506,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 3480
+				}
+			]
+		},
+		{
+			"pid": 6526,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1616
+				}
+			]
+		},
+		{
+			"pid": 3071,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3072,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

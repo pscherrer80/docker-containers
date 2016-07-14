@@ -1,0 +1,28 @@
+{
+	"sid": 3640,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "R.S.F. inBlu",
+	"provider": "M-Three satcom",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055356,
+	"last_seen": 1445055356,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3518,
+	"pmt": 3517,
+	"stream": [
+		{
+			"pid": 3518,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

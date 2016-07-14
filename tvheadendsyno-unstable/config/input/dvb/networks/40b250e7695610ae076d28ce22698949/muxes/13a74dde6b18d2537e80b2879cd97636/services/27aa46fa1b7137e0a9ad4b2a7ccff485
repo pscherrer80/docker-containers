@@ -1,0 +1,25 @@
+{
+	"sid": 341,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"dvb_servicetype": 0,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055321,
+	"last_seen": 1445055321,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8191,
+	"pmt": 33,
+	"stream": [
+		{
+			"pid": 1029,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "ZDF HD",
+	"number": 25,
+	"icon": "picon://zdf_de_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"21306ca00cb18c7c50911d23ccf32a22"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

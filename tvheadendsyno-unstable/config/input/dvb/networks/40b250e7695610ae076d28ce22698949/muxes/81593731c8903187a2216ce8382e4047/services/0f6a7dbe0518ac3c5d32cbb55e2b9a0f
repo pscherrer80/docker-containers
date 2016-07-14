@@ -1,0 +1,71 @@
+{
+	"sid": 7365,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Disney Channel HD",
+	"provider": "Cyfrowy Polsat S.A.",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055513,
+	"last_seen": 1445055513,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 510,
+	"pmt": 51,
+	"stream": [
+		{
+			"pid": 510,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 610,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 710,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 105,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 8793,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "pol",
+			"parentpid": 105
+		},
+		{
+			"pid": 4248,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 4247,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		}
+	]
+}

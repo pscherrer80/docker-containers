@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "Spiegel Geschichte HD",
+	"number": 101,
+	"icon": "picon://spiegel_geschichte_de_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"38b67d30a3c28f0347a4a071226fe7a8"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

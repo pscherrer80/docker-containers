@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "nc+",
+	"source": "dvb-bouquet://dvbs,13E,2AF8,2020",
+	"services": {
+	},
+	"services_seen": 345,
+	"comment": "10719V in Hotbird",
+	"lcn_off": 0
+}

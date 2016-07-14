@@ -1,0 +1,51 @@
+{
+	"sid": 3120,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"dvb_servicetype": 0,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055515,
+	"last_seen": 1445055515,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 201,
+	"pmt": 33,
+	"stream": [
+		{
+			"pid": 201,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 211,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 8180,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 8181,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		}
+	]
+}

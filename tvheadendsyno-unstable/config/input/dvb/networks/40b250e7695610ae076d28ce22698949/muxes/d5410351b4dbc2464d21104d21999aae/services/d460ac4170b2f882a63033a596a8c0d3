@@ -1,0 +1,58 @@
+{
+	"sid": 4451,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Planete+",
+	"provider": "nc+",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055470,
+	"last_seen": 1445055470,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 165,
+	"pmt": 1051,
+	"stream": [
+		{
+			"pid": 2606,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 104
+				},
+				{
+					"caid": 6163
+				}
+			]
+		},
+		{
+			"pid": 3656,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2816
+				}
+			]
+		},
+		{
+			"pid": 100,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		},
+		{
+			"pid": 165,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		}
+	]
+}

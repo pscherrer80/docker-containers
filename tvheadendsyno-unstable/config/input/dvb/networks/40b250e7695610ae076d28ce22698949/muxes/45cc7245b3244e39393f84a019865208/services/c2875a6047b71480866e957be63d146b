@@ -1,0 +1,33 @@
+{
+	"sid": 806,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Al Horreya",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055354,
+	"last_seen": 1445055354,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8006,
+	"pmt": 1806,
+	"stream": [
+		{
+			"pid": 8006,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 8106,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

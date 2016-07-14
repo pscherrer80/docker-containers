@@ -1,0 +1,34 @@
+{
+	"sid": 7355,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Manoto 1",
+	"provider": "Arqiva",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055412,
+	"last_seen": 1445055412,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3555,
+	"pmt": 295,
+	"stream": [
+		{
+			"pid": 3555,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3675,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

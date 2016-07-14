@@ -1,0 +1,29 @@
+{
+	"sid": 11,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Radio Nationale",
+	"provider": "SNRT",
+	"dvb_servicetype": 7,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055454,
+	"last_seen": 1445055454,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2881,
+	"pmt": 2816,
+	"stream": [
+		{
+			"pid": 2817,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

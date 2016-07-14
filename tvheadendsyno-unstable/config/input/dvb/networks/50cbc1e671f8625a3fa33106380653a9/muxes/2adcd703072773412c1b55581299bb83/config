@@ -1,0 +1,20 @@
+{
+	"delsys": "DVBS",
+	"frequency": 11523250,
+	"symbolrate": 22000000,
+	"polarisation": "H",
+	"modulation": "QPSK",
+	"fec": "5/6",
+	"rolloff": "35",
+	"pilot": "AUTO",
+	"stream_id": -1,
+	"pls_mode": "ROOT",
+	"pls_code": 0,
+	"orbital": "19.2E",
+	"enabled": true,
+	"epg": 1,
+	"onid": 1,
+	"tsid": 1021,
+	"scan_result": 1,
+	"pmt_06_ac3": 0
+}

@@ -1,0 +1,29 @@
+{
+	"sid": 175,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"svcname": "HOPE Channel Radio",
+	"provider": "BetaDigital",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054989,
+	"last_seen": 1447102081,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 400,
+	"pmt": 135,
+	"stream": [
+		{
+			"pid": 400,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

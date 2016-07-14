@@ -1,0 +1,61 @@
+{
+	"sid": 10355,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "hr-fernsehen HD",
+	"provider": "ARD",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054815,
+	"last_seen": 1446747582,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 5351,
+	"pmt": 5350,
+	"stream": [
+		{
+			"pid": 5351,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 5352,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 5353,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "mis",
+			"audio_type": 0
+		},
+		{
+			"pid": 5354,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 5356,
+			"type": "AC3",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 5355,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "ger",
+			"compositionid": 1,
+			"ancillartyid": 1
+		}
+	]
+}

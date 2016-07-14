@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "ARD Digital",
+	"source": "dvb-bouquet://dvbs,19.2E,044D,1040",
+	"services": {
+	},
+	"services_seen": 109,
+	"comment": "11836.5H in Astra",
+	"lcn_off": 0
+}

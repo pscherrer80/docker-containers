@@ -1,0 +1,34 @@
+{
+	"sid": 7315,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "ESTV",
+	"provider": "Arqiva",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055412,
+	"last_seen": 1445055412,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3301,
+	"pmt": 3300,
+	"stream": [
+		{
+			"pid": 3301,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3302,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

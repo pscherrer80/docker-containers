@@ -1,0 +1,21 @@
+{
+	"sid": 17203,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"dvb_servicetype": 0,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1446917374,
+	"last_seen": 1446917374,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 0,
+	"pmt": 531,
+	"stream": [
+	]
+}

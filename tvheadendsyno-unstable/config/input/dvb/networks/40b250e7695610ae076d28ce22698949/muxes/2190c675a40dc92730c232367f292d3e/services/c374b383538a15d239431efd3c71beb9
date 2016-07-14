@@ -1,0 +1,34 @@
+{
+	"sid": 7466,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Daystar",
+	"provider": "Globecast UK",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055435,
+	"last_seen": 1445055435,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 7401,
+	"pmt": 7498,
+	"stream": [
+		{
+			"pid": 7401,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 7411,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

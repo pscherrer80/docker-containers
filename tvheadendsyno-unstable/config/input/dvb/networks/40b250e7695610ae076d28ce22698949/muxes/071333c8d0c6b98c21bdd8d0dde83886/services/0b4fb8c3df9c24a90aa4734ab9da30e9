@@ -1,0 +1,78 @@
+{
+	"sid": 11219,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Sky Calcio 4",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055574,
+	"last_seen": 1445055574,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 169,
+	"pmt": 1115,
+	"stream": [
+		{
+			"pid": 1609,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1709,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1809,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		},
+		{
+			"pid": 169,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 436,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 437,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		},
+		{
+			"pid": 452,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ben",
+			"audio_type": 0
+		}
+	]
+}
