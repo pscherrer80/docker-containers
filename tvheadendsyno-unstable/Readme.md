@@ -1,4 +1,4 @@
-TVHeadend latest unstable version<br>
+TVHeadend for Synology latest unstable version<br>
 <br>
 Additional files:<br>
 ffmpeg and ffpipe.sh to get IPTV-Channels with X-Forward working<br>
