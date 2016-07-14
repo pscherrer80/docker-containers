@@ -1,0 +1,22 @@
+{
+	"sid": 3673,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "DL IKUSI EPG",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 250,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055308,
+	"last_seen": 1445055308,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8191,
+	"pmt": 100,
+	"stream": [
+	]
+}

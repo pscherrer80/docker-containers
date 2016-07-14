@@ -1,0 +1,218 @@
+{
+	"sid": 12164,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "NT1",
+	"provider": "CSAT",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054666,
+	"last_seen": 1446656518,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 128,
+	"pmt": 828,
+	"stream": [
+		{
+			"pid": 128,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 228,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 1
+		},
+		{
+			"pid": 328,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 1
+		},
+		{
+			"pid": 628,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 9081,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "fre",
+			"parentpid": 628
+		},
+		{
+			"pid": 9080,
+			"type": "TEXTSUB",
+			"position": 1001,
+			"language": "fre",
+			"parentpid": 628
+		},
+		{
+			"pid": 2428,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13073
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 2528,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13079
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 1028,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207168
+				}
+			]
+		},
+		{
+			"pid": 1128,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207136
+				}
+			]
+		},
+		{
+			"pid": 1328,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 206896
+				}
+			]
+		},
+		{
+			"pid": 1428,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 199424
+				}
+			]
+		},
+		{
+			"pid": 1440,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 199424
+				}
+			]
+		},
+		{
+			"pid": 1528,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272384
+				}
+			]
+		},
+		{
+			"pid": 1628,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272416
+				}
+			]
+		},
+		{
+			"pid": 1928,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 275200
+				}
+			]
+		},
+		{
+			"pid": 2028,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 275248
+				}
+			]
+		},
+		{
+			"pid": 2628,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6243
+				}
+			]
+		},
+		{
+			"pid": 2828,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6243
+				}
+			]
+		},
+		{
+			"pid": 2328,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 43041
+				}
+			]
+		}
+	]
+}

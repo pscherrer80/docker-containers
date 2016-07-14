@@ -1,0 +1,100 @@
+{
+	"sid": 9113,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "RADIOS 2",
+	"provider": "CSAT",
+	"dvb_servicetype": 198,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054885,
+	"last_seen": 1445054885,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 168,
+	"pmt": 1289,
+	"stream": [
+		{
+			"pid": 1976,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1978,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1966,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1967,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1969,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1960,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1973,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1962,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1963,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1964,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1972,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1961,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1970,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

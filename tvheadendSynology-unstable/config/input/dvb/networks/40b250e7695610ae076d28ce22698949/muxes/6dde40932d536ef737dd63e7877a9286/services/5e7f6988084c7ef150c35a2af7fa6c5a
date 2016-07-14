@@ -1,0 +1,53 @@
+{
+	"sid": 17035,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Test 1",
+	"provider": "Cyfrowy Polsat S.A",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055494,
+	"last_seen": 1445055494,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 309,
+	"pmt": 32,
+	"stream": [
+		{
+			"pid": 1333,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 1589,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 309,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 565,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

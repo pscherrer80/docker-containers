@@ -1,0 +1,38 @@
+{
+	"sid": 103,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "RUSSIAN RADIO",
+	"provider": "RRSat",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055526,
+	"last_seen": 1445055526,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 358,
+	"pmt": 1382,
+	"stream": [
+		{
+			"pid": 778,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 8931
+				}
+			]
+		},
+		{
+			"pid": 614,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

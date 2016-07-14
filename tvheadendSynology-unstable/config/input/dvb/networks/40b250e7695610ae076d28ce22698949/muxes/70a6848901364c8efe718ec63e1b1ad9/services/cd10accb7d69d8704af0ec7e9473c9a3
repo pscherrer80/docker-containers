@@ -1,0 +1,29 @@
+{
+	"sid": 9055,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Radio Al Mahabba (www radioalmahabba com SMS 0033609880486)",
+	"provider": "STN Ltd",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055133,
+	"last_seen": 1445055133,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8190,
+	"pmt": 955,
+	"stream": [
+		{
+			"pid": 2042,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ara",
+			"audio_type": 0
+		}
+	]
+}

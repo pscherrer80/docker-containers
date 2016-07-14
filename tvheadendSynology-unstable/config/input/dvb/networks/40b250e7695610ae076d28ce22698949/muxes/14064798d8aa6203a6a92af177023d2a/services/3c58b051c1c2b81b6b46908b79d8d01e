@@ -1,0 +1,22 @@
+{
+	"sid": 11499,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "IEPG Data",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 131,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055492,
+	"last_seen": 1445055492,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8191,
+	"pmt": 86,
+	"stream": [
+	]
+}

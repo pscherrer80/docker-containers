@@ -1,0 +1,71 @@
+{
+	"sid": 11313,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "DeAJunior",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055490,
+	"last_seen": 1445055490,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 178,
+	"pmt": 1177,
+	"stream": [
+		{
+			"pid": 1626,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1726,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1826,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		},
+		{
+			"pid": 178,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 420,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 421,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		}
+	]
+}

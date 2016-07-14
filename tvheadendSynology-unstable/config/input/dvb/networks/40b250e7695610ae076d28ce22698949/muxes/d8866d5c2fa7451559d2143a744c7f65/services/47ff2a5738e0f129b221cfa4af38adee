@@ -1,0 +1,34 @@
+{
+	"sid": 11720,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "VENETO LINK",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055665,
+	"last_seen": 1445055665,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 185,
+	"pmt": 1112,
+	"stream": [
+		{
+			"pid": 185,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 465,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		}
+	]
+}

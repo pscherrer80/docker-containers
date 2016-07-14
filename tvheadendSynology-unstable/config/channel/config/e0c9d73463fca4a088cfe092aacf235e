@@ -1,0 +1,18 @@
+{
+	"enabled": true,
+	"name": "Boomerang",
+	"number": 51,
+	"icon": "picon://boomerang_global.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"epg_running": -1,
+	"services": [
+		"99cb63772e31800920e17bcd1baf0b11"
+	],
+	"tags": [
+		"8b84724a87681e042bfbd29a008987f2",
+		"0bb72802781725e71badbabb1b543856"
+	],
+	"bouquet": ""
+}

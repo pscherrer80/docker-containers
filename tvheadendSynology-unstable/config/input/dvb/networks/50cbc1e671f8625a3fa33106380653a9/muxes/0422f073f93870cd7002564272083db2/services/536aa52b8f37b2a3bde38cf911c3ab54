@@ -1,0 +1,58 @@
+{
+	"sid": 9116,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "RADIOS 3",
+	"provider": "CSAT",
+	"dvb_servicetype": 198,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054885,
+	"last_seen": 1445054885,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 169,
+	"pmt": 1290,
+	"stream": [
+		{
+			"pid": 1943,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1945,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1946,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1951,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1952,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1942,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

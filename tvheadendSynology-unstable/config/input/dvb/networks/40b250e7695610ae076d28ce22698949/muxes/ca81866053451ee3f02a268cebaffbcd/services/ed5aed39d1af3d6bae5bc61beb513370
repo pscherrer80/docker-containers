@@ -1,0 +1,33 @@
+{
+	"sid": 4718,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "El Sharq",
+	"provider": "Eutelsat",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055403,
+	"last_seen": 1445055403,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2018,
+	"pmt": 1018,
+	"stream": [
+		{
+			"pid": 2018,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3018,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "RTL HD",
+	"number": 9,
+	"icon": "picon://rtl_de_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"00cae95f7f1f92d7b771841d097f61e5"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

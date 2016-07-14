@@ -1,0 +1,129 @@
+{
+	"sid": 303,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "France 3",
+	"provider": "Eutelsat",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055475,
+	"last_seen": 1445055475,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 531,
+	"pmt": 530,
+	"stream": [
+		{
+			"pid": 531,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 532,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 536,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 9080,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "fre",
+			"parentpid": 536
+		},
+		{
+			"pid": 5531,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 104
+				},
+				{
+					"caid": 6163
+				}
+			]
+		},
+		{
+			"pid": 5532,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 109
+				},
+				{
+					"caid": 6169
+				}
+			]
+		},
+		{
+			"pid": 5538,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272384
+				}
+			]
+		},
+		{
+			"pid": 5533,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207136
+				}
+			]
+		},
+		{
+			"pid": 5536,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		},
+		{
+			"pid": 5534,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272416
+				}
+			]
+		},
+		{
+			"pid": 5535,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334080
+				}
+			]
+		}
+	]
+}

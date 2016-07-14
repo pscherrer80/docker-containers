@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "ORF1 HD",
+	"number": 4,
+	"icon": "picon://orf_eins_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"7d1c48421197e221092ddfd4c5130ed9"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

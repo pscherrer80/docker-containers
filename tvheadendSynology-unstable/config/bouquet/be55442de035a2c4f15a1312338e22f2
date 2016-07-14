@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "NEWS",
+	"source": "dvb-bouquet://dvbs,13E,17D4,0004",
+	"services": {
+	},
+	"services_seen": 6,
+	"comment": "11938H in Hotbird",
+	"lcn_off": 0
+}

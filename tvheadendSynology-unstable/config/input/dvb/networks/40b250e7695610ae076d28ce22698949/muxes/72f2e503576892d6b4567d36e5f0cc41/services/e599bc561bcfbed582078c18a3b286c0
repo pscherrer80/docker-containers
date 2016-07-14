@@ -1,0 +1,45 @@
+{
+	"sid": 8104,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "PIWI+",
+	"provider": "Orange",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055111,
+	"last_seen": 1445055111,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 204,
+	"pmt": 104,
+	"stream": [
+		{
+			"pid": 1504,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207136
+				}
+			]
+		},
+		{
+			"pid": 204,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 304,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		}
+	]
+}

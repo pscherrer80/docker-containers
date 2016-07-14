@@ -1,0 +1,34 @@
+{
+	"sid": 9512,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "AL BAGHDADIA",
+	"provider": "Du",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055329,
+	"last_seen": 1445055329,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 4252,
+	"pmt": 4251,
+	"stream": [
+		{
+			"pid": 4252,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 4253,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ara",
+			"audio_type": 0
+		}
+	]
+}

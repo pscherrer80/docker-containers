@@ -1,0 +1,74 @@
+{
+	"sid": 29809,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "AXN WHITE",
+	"provider": "DIGITAL+",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054693,
+	"last_seen": 1445715017,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 167,
+	"pmt": 1029,
+	"stream": [
+		{
+			"pid": 167,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 108,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 1
+		},
+		{
+			"pid": 109,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 1
+		},
+		{
+			"pid": 53,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 8993,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "spa",
+			"parentpid": 53
+		},
+		{
+			"pid": 1227,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 16646
+				}
+			]
+		},
+		{
+			"pid": 1903,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6160
+				}
+			]
+		}
+	]
+}

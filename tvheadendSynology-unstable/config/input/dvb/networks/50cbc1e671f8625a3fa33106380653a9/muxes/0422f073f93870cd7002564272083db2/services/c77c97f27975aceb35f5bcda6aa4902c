@@ -1,0 +1,56 @@
+{
+	"sid": 9102,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "AUDIO PRIMO",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054885,
+	"last_seen": 1445054885,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1970,
+	"pmt": 1281,
+	"stream": [
+		{
+			"pid": 5902,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13073
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 5903,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13077
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 1971,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		}
+	]
+}

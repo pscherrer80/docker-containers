@@ -1,0 +1,61 @@
+{
+	"sid": 10101,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "SES Demo HD",
+	"provider": "BetaDigital",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054749,
+	"last_seen": 1445054749,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 511,
+	"pmt": 97,
+	"stream": [
+		{
+			"pid": 7677,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6247
+				}
+			]
+		},
+		{
+			"pid": 7679,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6247
+				}
+			]
+		},
+		{
+			"pid": 511,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 515,
+			"type": "AC3",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		},
+		{
+			"pid": 516,
+			"type": "EAC3",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 1
+		}
+	]
+}

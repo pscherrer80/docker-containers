@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "SIXX HD",
+	"number": 80,
+	"icon": "picon://sixx_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"6cd2ba632322a41a310ae3a0fc53bb87"
+	],
+	"tags": [
+		"91a784d9ba2d913df542951d7ec4a42c",
+		"0bb72802781725e71badbabb1b543856"
+	],
+	"bouquet": ""
+}

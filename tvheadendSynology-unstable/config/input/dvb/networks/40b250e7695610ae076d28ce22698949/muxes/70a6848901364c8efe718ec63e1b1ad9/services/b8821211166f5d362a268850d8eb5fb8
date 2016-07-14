@@ -1,0 +1,28 @@
+{
+	"sid": 9052,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Farsi Bible",
+	"provider": "STN Ltd",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055133,
+	"last_seen": 1445055133,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2011,
+	"pmt": 952,
+	"stream": [
+		{
+			"pid": 2012,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

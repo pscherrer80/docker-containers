@@ -1,0 +1,17 @@
+{
+	"enabled": false,
+	"name": "NICKELODEON",
+	"number": 48,
+	"icon": "picon://nickelodeon_de_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"6a8e6a133314f214d1e977723e91dd1e"
+	],
+	"tags": [
+		"91a784d9ba2d913df542951d7ec4a42c",
+		"0bb72802781725e71badbabb1b543856"
+	],
+	"bouquet": ""
+}

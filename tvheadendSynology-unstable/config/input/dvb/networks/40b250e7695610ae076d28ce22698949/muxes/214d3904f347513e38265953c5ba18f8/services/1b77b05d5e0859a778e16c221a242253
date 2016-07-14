@@ -1,0 +1,29 @@
+{
+	"sid": 15790,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "TV RACHUNEK",
+	"provider": "nc+",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055460,
+	"last_seen": 1445715023,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 159,
+	"pmt": 1090,
+	"stream": [
+		{
+			"pid": 159,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		}
+	]
+}

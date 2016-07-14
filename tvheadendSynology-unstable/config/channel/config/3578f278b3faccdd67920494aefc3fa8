@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "Kinowelt TV",
+	"number": 76,
+	"icon": "picon://kinowelt_tv_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"11487a7bc8e59ba4fee9f050f5342ebd"
+	],
+	"tags": [
+		"8b84724a87681e042bfbd29a008987f2",
+		"0bb72802781725e71badbabb1b543856"
+	],
+	"bouquet": ""
+}

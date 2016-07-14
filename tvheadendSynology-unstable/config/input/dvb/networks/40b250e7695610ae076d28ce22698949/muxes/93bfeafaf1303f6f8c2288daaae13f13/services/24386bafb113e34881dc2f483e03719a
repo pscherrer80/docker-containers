@@ -1,0 +1,114 @@
+{
+	"sid": 7,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "VH1",
+	"provider": "MTV Networks Europe",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055422,
+	"last_seen": 1445055422,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 166,
+	"pmt": 1030,
+	"stream": [
+		{
+			"pid": 7907,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 329216
+				}
+			]
+		},
+		{
+			"pid": 6147,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6163
+				},
+				{
+					"caid": 256,
+					"providerid": 104
+				}
+			]
+		},
+		{
+			"pid": 6004,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2817
+				}
+			]
+		},
+		{
+			"pid": 6606,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207360
+				}
+			]
+		},
+		{
+			"pid": 6025,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 6225,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 6045,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6276
+				}
+			]
+		},
+		{
+			"pid": 166,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 104,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1054,
+			"type": "TELETEXT",
+			"position": 0
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"sid": 30060,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "MULTIDEP.1",
+	"provider": "Digital+",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054769,
+	"last_seen": 1445715017,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 4060,
+	"pmt": 1034,
+	"stream": [
+		{
+			"pid": 4060,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 4061,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "spa",
+			"audio_type": 1
+		},
+		{
+			"pid": 4062,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 1
+		},
+		{
+			"pid": 1251,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 16646
+				}
+			]
+		},
+		{
+			"pid": 2251,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6160
+				}
+			]
+		}
+	]
+}

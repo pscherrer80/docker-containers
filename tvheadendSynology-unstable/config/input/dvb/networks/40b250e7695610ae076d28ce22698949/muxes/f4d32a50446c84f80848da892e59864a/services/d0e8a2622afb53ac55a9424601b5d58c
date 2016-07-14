@@ -1,0 +1,39 @@
+{
+	"sid": 4348,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "MANGO 24_",
+	"provider": "TVN",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055385,
+	"last_seen": 1445055385,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 517,
+	"pmt": 288,
+	"stream": [
+		{
+			"pid": 517,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 700,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		},
+		{
+			"pid": 581,
+			"type": "TELETEXT",
+			"position": 0
+		}
+	]
+}

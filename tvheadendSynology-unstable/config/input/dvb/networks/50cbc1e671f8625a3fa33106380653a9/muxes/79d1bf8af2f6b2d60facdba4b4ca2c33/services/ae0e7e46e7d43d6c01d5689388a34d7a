@@ -1,0 +1,118 @@
+{
+	"sid": 30102,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "RADIOS",
+	"provider": "DIGITAL+",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054806,
+	"last_seen": 1445720857,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 163,
+	"pmt": 1076,
+	"stream": [
+		{
+			"pid": 163,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 400,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "spa",
+			"audio_type": 1
+		},
+		{
+			"pid": 262,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 257,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 260,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 256,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 258,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 259,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 261,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 268,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 269,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 263,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 267,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 265,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 266,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 264,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"type": [
+		8
+	],
+	"CAid": "1833",
+	"CAprovider": "ffffff",
+	"service": "b5119d97b1be3ede326024a9ac66394d",
+	"sindex": 0,
+	"pid": 0,
+	"action": 5,
+	"log": false,
+	"class": 5,
+	"index": 4,
+	"enabled": true
+}

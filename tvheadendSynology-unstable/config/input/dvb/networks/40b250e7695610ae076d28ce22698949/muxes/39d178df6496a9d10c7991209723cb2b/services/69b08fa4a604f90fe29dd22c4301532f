@@ -1,0 +1,33 @@
+{
+	"sid": 108,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "VOA Radio 108 (HB65-68)",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055218,
+	"last_seen": 1445055218,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3430,
+	"pmt": 5108,
+	"stream": [
+		{
+			"pid": 3430,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 3432,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

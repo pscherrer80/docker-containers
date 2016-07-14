@@ -1,0 +1,22 @@
+{
+	"sid": 3013,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "CGN",
+	"provider": "GLOBECAST",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055152,
+	"last_seen": 1445055152,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 0,
+	"pmt": 3113,
+	"stream": [
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "CYFRA+",
+	"source": "dvb-bouquet://dvbs,13E,05DC,C023",
+	"services": {
+	},
+	"services_seen": 4,
+	"comment": "11488H in Hotbird",
+	"lcn_off": 0
+}

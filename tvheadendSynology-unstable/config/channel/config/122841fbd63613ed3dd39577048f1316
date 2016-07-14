@@ -1,0 +1,18 @@
+{
+	"enabled": true,
+	"name": "Motorvision TV",
+	"number": 214,
+	"icon": "picon://1_0_1_A8_1_85_C00000_0_0_0.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"epg_running": -1,
+	"services": [
+		"d4f0b7e54777cf05349b663b47111051"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"8b84724a87681e042bfbd29a008987f2"
+	],
+	"bouquet": ""
+}

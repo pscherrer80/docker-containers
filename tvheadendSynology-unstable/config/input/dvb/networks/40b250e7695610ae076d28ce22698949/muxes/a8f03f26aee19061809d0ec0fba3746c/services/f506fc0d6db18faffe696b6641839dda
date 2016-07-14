@@ -1,0 +1,72 @@
+{
+	"sid": 8514,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Rai 4",
+	"provider": "RAI",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055432,
+	"last_seen": 1445055432,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 523,
+	"pmt": 136,
+	"stream": [
+		{
+			"pid": 4066,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 48
+				}
+			]
+		},
+		{
+			"pid": 4166,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6205
+				}
+			]
+		},
+		{
+			"pid": 4466,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6206
+				}
+			]
+		},
+		{
+			"pid": 523,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 604,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 698,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

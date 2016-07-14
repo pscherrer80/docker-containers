@@ -1,0 +1,139 @@
+{
+	"sid": 6301,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "beIN SPORTS 1 HD",
+	"provider": "GlobeCast",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054697,
+	"last_seen": 1446656518,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 611,
+	"pmt": 610,
+	"stream": [
+		{
+			"pid": 611,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 612,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 618,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 9080,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "fre",
+			"parentpid": 618
+		},
+		{
+			"pid": 3001,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207136
+				}
+			]
+		},
+		{
+			"pid": 3031,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 206896
+				}
+			]
+		},
+		{
+			"pid": 3041,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207168
+				}
+			]
+		},
+		{
+			"pid": 3021,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6161
+				},
+				{
+					"caid": 256,
+					"providerid": 13079
+				}
+			]
+		},
+		{
+			"pid": 3061,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6243
+				}
+			]
+		},
+		{
+			"pid": 3051,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 275248
+				}
+			]
+		},
+		{
+			"pid": 3011,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6161
+				},
+				{
+					"caid": 256,
+					"providerid": 13073
+				}
+			]
+		},
+		{
+			"pid": 3071,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 334592
+				}
+			]
+		}
+	]
+}

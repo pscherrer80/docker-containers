@@ -1,0 +1,40 @@
+{
+	"sid": 9513,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Al-Arabiya",
+	"provider": "MBC",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055329,
+	"last_seen": 1445055329,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 515,
+	"pmt": 35,
+	"stream": [
+		{
+			"pid": 515,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 643,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		},
+		{
+			"pid": 671,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

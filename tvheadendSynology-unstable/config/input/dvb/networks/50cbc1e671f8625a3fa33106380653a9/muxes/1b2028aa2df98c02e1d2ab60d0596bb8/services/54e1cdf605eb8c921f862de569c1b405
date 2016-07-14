@@ -1,0 +1,91 @@
+{
+	"sid": 30907,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "C+ SeriesXtraHD",
+	"provider": "PRISA TV",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054676,
+	"last_seen": 1445715017,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 162,
+	"pmt": 1031,
+	"stream": [
+		{
+			"pid": 162,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 88,
+			"type": "AC3",
+			"position": 0,
+			"language": "spa",
+			"audio_type": 1
+		},
+		{
+			"pid": 89,
+			"type": "AC3",
+			"position": 0,
+			"language": "qaa",
+			"audio_type": 1
+		},
+		{
+			"pid": 38,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "spa",
+			"compositionid": 4,
+			"ancillartyid": 5
+		},
+		{
+			"pid": 39,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "und",
+			"compositionid": 4,
+			"ancillartyid": 5
+		},
+		{
+			"pid": 40,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "eng",
+			"compositionid": 4,
+			"ancillartyid": 5
+		},
+		{
+			"pid": 41,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "cat",
+			"compositionid": 4,
+			"ancillartyid": 5
+		},
+		{
+			"pid": 42,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "baq",
+			"compositionid": 4,
+			"ancillartyid": 5
+		},
+		{
+			"pid": 1512,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6160
+				}
+			]
+		}
+	]
+}

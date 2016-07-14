@@ -1,0 +1,80 @@
+{
+	"sid": 28662,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Nick Jr.",
+	"provider": "MTV Networks Europe",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054820,
+	"last_seen": 1445054820,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3111,
+	"pmt": 322,
+	"stream": [
+		{
+			"pid": 8111,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 329216
+				}
+			]
+		},
+		{
+			"pid": 3111,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3113,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		},
+		{
+			"pid": 3116,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "rus",
+			"audio_type": 0
+		},
+		{
+			"pid": 3118,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "swe",
+			"audio_type": 0
+		},
+		{
+			"pid": 3119,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "dan",
+			"audio_type": 0
+		},
+		{
+			"pid": 3120,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "nor",
+			"audio_type": 0
+		},
+		{
+			"pid": 3121,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fin",
+			"audio_type": 0
+		}
+	]
+}

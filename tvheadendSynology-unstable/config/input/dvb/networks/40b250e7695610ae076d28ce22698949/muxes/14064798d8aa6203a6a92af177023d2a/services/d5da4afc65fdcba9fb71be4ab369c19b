@@ -1,0 +1,90 @@
+{
+	"sid": 11403,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Disney Ch. +1",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055492,
+	"last_seen": 1445055492,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 177,
+	"pmt": 1170,
+	"stream": [
+		{
+			"pid": 177,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 453,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 454,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		},
+		{
+			"pid": 716,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 8969,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "ita",
+			"parentpid": 716
+		},
+		{
+			"pid": 8970,
+			"type": "TEXTSUB",
+			"position": 1001,
+			"language": "eng",
+			"parentpid": 716
+		},
+		{
+			"pid": 1627,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1727,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1827,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		}
+	]
+}

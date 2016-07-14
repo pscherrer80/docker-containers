@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "Sogecable Astra.",
+	"source": "dvb-bouquet://dvbs,19.2E,03F0,0021",
+	"services": {
+	},
+	"services_seen": 24,
+	"comment": "11317.5V in Astra",
+	"lcn_off": 0
+}

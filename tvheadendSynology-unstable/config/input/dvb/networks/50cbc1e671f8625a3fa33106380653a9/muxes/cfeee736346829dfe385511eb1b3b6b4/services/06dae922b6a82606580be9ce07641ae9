@@ -1,0 +1,53 @@
+{
+	"sid": 28113,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "SWR Fernsehen BW",
+	"provider": "ARD",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054892,
+	"last_seen": 1446747582,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 801,
+	"pmt": 800,
+	"stream": [
+		{
+			"pid": 801,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 802,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 803,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "mis",
+			"audio_type": 0
+		},
+		{
+			"pid": 804,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 806,
+			"type": "AC3",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "NOVA CYPRUS",
+	"source": "dvb-bouquet://dvbs,13E,157C,0003",
+	"services": {
+	},
+	"services_seen": 45,
+	"comment": "11823H in Hotbird",
+	"lcn_off": 0
+}

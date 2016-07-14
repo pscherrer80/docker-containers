@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": ": Region 4",
+	"source": "dvb-bskyb://dvbs,13E,625A,4",
+	"services": {
+	},
+	"services_seen": 478,
+	"comment": "11958V in Hotbird",
+	"lcn_off": 0
+}

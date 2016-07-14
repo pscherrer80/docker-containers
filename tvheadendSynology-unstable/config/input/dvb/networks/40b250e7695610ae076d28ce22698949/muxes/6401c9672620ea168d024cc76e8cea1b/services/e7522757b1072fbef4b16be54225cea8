@@ -1,0 +1,98 @@
+{
+	"sid": 15902,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Polsat Film HD",
+	"provider": "Cyfrowy Polsat S.A.",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055495,
+	"last_seen": 1445055495,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 258,
+	"pmt": 32,
+	"stream": [
+		{
+			"pid": 258,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 514,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 2066,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6276
+				}
+			]
+		},
+		{
+			"pid": 2050,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 3328,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 104
+				},
+				{
+					"caid": 6163
+				}
+			]
+		},
+		{
+			"pid": 2306,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 3329,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2817
+				}
+			]
+		},
+		{
+			"pid": 3330,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207360
+				}
+			]
+		}
+	]
+}

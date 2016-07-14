@@ -1,0 +1,157 @@
+{
+	"sid": 9905,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "TEVA",
+	"provider": "CSAT",
+	"dvb_servicetype": 25,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054859,
+	"last_seen": 1446656518,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 510,
+	"pmt": 500,
+	"stream": [
+		{
+			"pid": 510,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 521,
+			"type": "AC3",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 522,
+			"type": "AC3",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		},
+		{
+			"pid": 523,
+			"type": "AC3",
+			"position": 0,
+			"language": "qaa",
+			"audio_type": 0
+		},
+		{
+			"pid": 542,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "fre",
+			"compositionid": 1,
+			"ancillartyid": 2
+		},
+		{
+			"pid": 543,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "fre",
+			"compositionid": 3,
+			"ancillartyid": 4
+		},
+		{
+			"pid": 571,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6243
+				}
+			]
+		},
+		{
+			"pid": 567,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13079
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 565,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13073
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 580,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 206896
+				}
+			]
+		},
+		{
+			"pid": 582,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207168
+				}
+			]
+		},
+		{
+			"pid": 584,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 275248
+				}
+			]
+		},
+		{
+			"pid": 583,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 275200
+				}
+			]
+		},
+		{
+			"pid": 581,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207136
+				}
+			]
+		}
+	]
+}

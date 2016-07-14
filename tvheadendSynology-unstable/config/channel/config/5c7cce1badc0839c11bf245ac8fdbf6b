@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "zdf_neo HD",
+	"number": 26,
+	"icon": "picon://zdf_neo_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"eba2c86eb20956f1defd47b2ea5828af"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

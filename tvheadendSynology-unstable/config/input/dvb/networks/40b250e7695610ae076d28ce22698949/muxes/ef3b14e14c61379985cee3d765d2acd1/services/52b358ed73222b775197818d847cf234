@@ -1,0 +1,28 @@
+{
+	"sid": 8237,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "WRN Events",
+	"provider": "Globecast",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055111,
+	"last_seen": 1445055111,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2119,
+	"pmt": 1048,
+	"stream": [
+		{
+			"pid": 2119,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "CANAL READY SUISSE",
+	"source": "dvb-bouquet://dvbs,19.2E,0430,C01C",
+	"services": {
+	},
+	"services_seen": 23,
+	"comment": "11856V in Astra",
+	"lcn_off": 0
+}

@@ -1,0 +1,34 @@
+{
+	"sid": 4067,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Italian Fishing Tv",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055594,
+	"last_seen": 1445055594,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3099,
+	"pmt": 297,
+	"stream": [
+		{
+			"pid": 3099,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3105,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		}
+	]
+}

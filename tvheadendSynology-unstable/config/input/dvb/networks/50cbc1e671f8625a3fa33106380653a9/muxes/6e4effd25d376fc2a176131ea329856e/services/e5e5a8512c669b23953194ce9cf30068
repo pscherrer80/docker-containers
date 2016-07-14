@@ -1,0 +1,23 @@
+{
+	"sid": 200,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"svcname": "BDL VoD",
+	"provider": "Sky",
+	"dvb_servicetype": 198,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054980,
+	"last_seen": 1447102081,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8191,
+	"pmt": 145,
+	"stream": [
+	]
+}

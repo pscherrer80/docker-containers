@@ -1,0 +1,44 @@
+{
+	"sid": 16951,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "RH Channel",
+	"provider": "Telespazio",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055485,
+	"last_seen": 1445055485,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1893,
+	"pmt": 1951,
+	"stream": [
+		{
+			"pid": 6151,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2818
+				}
+			]
+		},
+		{
+			"pid": 1891,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 1892,
+			"type": "AAC-LATM",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

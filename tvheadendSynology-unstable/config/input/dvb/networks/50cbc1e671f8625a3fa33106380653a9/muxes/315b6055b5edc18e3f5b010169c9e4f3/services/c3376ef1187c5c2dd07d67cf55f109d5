@@ -1,0 +1,29 @@
+{
+	"sid": 28461,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "SR 1 Europawelle",
+	"provider": "ARD SR",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054876,
+	"last_seen": 1446747582,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 901,
+	"pmt": 900,
+	"stream": [
+		{
+			"pid": 901,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		}
+	]
+}

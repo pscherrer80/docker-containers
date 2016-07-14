@@ -1,0 +1,104 @@
+{
+	"sid": 7324,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Crime and Investigation nc+",
+	"provider": "Arqiva",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055412,
+	"last_seen": 1445055412,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 3524,
+	"pmt": 32,
+	"stream": [
+		{
+			"pid": 1289,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6163
+				},
+				{
+					"caid": 256,
+					"providerid": 104
+				}
+			]
+		},
+		{
+			"pid": 1392,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2817
+				}
+			]
+		},
+		{
+			"pid": 1391,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207360
+				}
+			]
+		},
+		{
+			"pid": 1389,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 1390,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 1393,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6276
+				}
+			]
+		},
+		{
+			"pid": 3524,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3644,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 3664,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

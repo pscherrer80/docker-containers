@@ -1,0 +1,16 @@
+{
+	"enabled": false,
+	"maptoch": false,
+	"mapnolcn": false,
+	"mapnoname": false,
+	"mapradio": false,
+	"chtag": false,
+	"chtag_ref": "",
+	"name": "CANAL+ R7 Prod",
+	"source": "dvb-bouquet://dvbs,19.2E,0438,C01E",
+	"services": {
+	},
+	"services_seen": 9,
+	"comment": "12012V in Astra",
+	"lcn_off": 0
+}

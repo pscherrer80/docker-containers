@@ -1,0 +1,66 @@
+{
+	"sid": 465,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "LUCKY JACK",
+	"provider": "AB SAT",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055080,
+	"last_seen": 1445055080,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 115,
+	"pmt": 415,
+	"stream": [
+		{
+			"pid": 115,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 215,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 1015,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272384
+				}
+			]
+		},
+		{
+			"pid": 1615,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272416
+				}
+			]
+		},
+		{
+			"pid": 1715,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 272448
+				}
+			]
+		}
+	]
+}

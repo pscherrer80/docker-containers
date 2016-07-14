@@ -1,0 +1,34 @@
+{
+	"sid": 13940,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "PMC",
+	"provider": "SmartCast",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055187,
+	"last_seen": 1445055187,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 100,
+	"pmt": 35,
+	"stream": [
+		{
+			"pid": 100,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 1602,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "per",
+			"audio_type": 0
+		}
+	]
+}

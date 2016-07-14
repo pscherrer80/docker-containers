@@ -1,0 +1,106 @@
+{
+	"sid": 3106,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "TVP 2 HD",
+	"provider": "Cyfrowy Polsat S.A",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055515,
+	"last_seen": 1445055515,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 1542,
+	"pmt": 33,
+	"stream": [
+		{
+			"pid": 1540,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "pol",
+			"audio_type": 0
+		},
+		{
+			"pid": 1541,
+			"type": "AC3",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		},
+		{
+			"pid": 1542,
+			"type": "H264",
+			"position": 0
+		},
+		{
+			"pid": 1301,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6276
+				}
+			]
+		},
+		{
+			"pid": 1792,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6147
+				}
+			]
+		},
+		{
+			"pid": 1539,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 104
+				},
+				{
+					"caid": 6163
+				}
+			]
+		},
+		{
+			"pid": 1793,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6241
+				}
+			]
+		},
+		{
+			"pid": 1538,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207360
+				}
+			]
+		},
+		{
+			"pid": 1537,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2817
+				}
+			]
+		}
+	]
+}

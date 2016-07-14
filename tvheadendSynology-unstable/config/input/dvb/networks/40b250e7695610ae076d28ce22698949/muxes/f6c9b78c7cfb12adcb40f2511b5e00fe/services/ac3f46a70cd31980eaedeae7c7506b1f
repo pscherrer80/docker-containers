@@ -1,0 +1,71 @@
+{
+	"sid": 14537,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Primafila 28",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055615,
+	"last_seen": 1445055615,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2590,
+	"pmt": 265,
+	"stream": [
+		{
+			"pid": 1300,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1301,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1310,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		},
+		{
+			"pid": 2708,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 2709,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 2710,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		}
+	]
+}

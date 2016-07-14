@@ -1,0 +1,33 @@
+{
+	"sid": 8,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Angel TV Europe",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055364,
+	"last_seen": 1445055364,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 801,
+	"pmt": 800,
+	"stream": [
+		{
+			"pid": 801,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 802,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "eng",
+			"audio_type": 0
+		}
+	]
+}

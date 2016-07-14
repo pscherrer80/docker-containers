@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"name": "arte HD",
+	"number": 21,
+	"icon": "picon://arte_de_hd.png",
+	"epgauto": true,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"services": [
+		"d7fbae8e6724d87f4587ab3fab8c561a"
+	],
+	"tags": [
+		"0bb72802781725e71badbabb1b543856",
+		"91a784d9ba2d913df542951d7ec4a42c"
+	],
+	"bouquet": ""
+}

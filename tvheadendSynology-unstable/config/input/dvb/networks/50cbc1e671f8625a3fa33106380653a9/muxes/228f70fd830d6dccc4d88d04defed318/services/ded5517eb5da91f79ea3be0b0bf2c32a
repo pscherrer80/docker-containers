@@ -1,0 +1,39 @@
+{
+	"sid": 28676,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"srcid": 0,
+	"svcname": "Comedy Central/VIVA",
+	"provider": "MTV Networks Europe",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054846,
+	"last_seen": 1447002814,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 8190,
+	"pmt": 416,
+	"stream": [
+		{
+			"pid": 4061,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 4062,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		},
+		{
+			"pid": 4064,
+			"type": "TELETEXT",
+			"position": 0
+		}
+	]
+}

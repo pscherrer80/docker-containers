@@ -1,0 +1,175 @@
+{
+	"sid": 9811,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "F3 LANGUEDOCROU",
+	"provider": "CSAT",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054945,
+	"last_seen": 1446656518,
+	"enabled": false,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 170,
+	"pmt": 1290,
+	"stream": [
+		{
+			"pid": 170,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 120,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		},
+		{
+			"pid": 62,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 9050,
+			"type": "TEXTSUB",
+			"position": 1000,
+			"language": "fre",
+			"parentpid": 62
+		},
+		{
+			"pid": 6820,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 199424
+				}
+			]
+		},
+		{
+			"pid": 5820,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13073
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 5821,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13077
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 5822,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 256,
+					"providerid": 13079
+				},
+				{
+					"caid": 6161
+				}
+			]
+		},
+		{
+			"pid": 6823,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207168
+				}
+			]
+		},
+		{
+			"pid": 6824,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 206896
+				}
+			]
+		},
+		{
+			"pid": 6825,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 275248
+				}
+			]
+		},
+		{
+			"pid": 6826,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 275200
+				}
+			]
+		},
+		{
+			"pid": 6827,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 199424
+				}
+			]
+		},
+		{
+			"pid": 6822,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 1280,
+					"providerid": 207136
+				}
+			]
+		},
+		{
+			"pid": 2100,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6243
+				}
+			]
+		}
+	]
+}

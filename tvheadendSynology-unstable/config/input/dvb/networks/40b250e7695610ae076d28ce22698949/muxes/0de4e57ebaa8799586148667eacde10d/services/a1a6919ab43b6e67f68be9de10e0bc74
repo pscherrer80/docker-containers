@@ -1,0 +1,33 @@
+{
+	"sid": 17308,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "Vozrojdenie.tv",
+	"provider": "RRsat",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055526,
+	"last_seen": 1445055526,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2008,
+	"pmt": 1008,
+	"stream": [
+		{
+			"pid": 2008,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 3008,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"audio_type": 0
+		}
+	]
+}

@@ -1,0 +1,91 @@
+{
+	"sid": 3647,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "MTV8",
+	"provider": "SkyItalia",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055308,
+	"last_seen": 1445055308,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 186,
+	"pmt": 275,
+	"stream": [
+		{
+			"pid": 1631,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2329
+				}
+			]
+		},
+		{
+			"pid": 1731,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2363
+				}
+			]
+		},
+		{
+			"pid": 1831,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 2509
+				}
+			]
+		},
+		{
+			"pid": 1971,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6205
+				}
+			]
+		},
+		{
+			"pid": 1981,
+			"type": "CA",
+			"position": 262144,
+			"caidlist": [
+				{
+					"caid": 6206
+				}
+			]
+		},
+		{
+			"pid": 186,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 462,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ita",
+			"audio_type": 0
+		},
+		{
+			"pid": 463,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "und",
+			"audio_type": 0
+		}
+	]
+}

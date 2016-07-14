@@ -1,0 +1,54 @@
+{
+	"sid": 28111,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "WDR Köln",
+	"provider": "ARD",
+	"dvb_servicetype": 1,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054892,
+	"last_seen": 1446747582,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 601,
+	"pmt": 600,
+	"stream": [
+		{
+			"pid": 601,
+			"type": "MPEG2VIDEO",
+			"position": 0
+		},
+		{
+			"pid": 602,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		},
+		{
+			"pid": 603,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "mis",
+			"audio_type": 0
+		},
+		{
+			"pid": 604,
+			"type": "TELETEXT",
+			"position": 0
+		},
+		{
+			"pid": 605,
+			"type": "DVBSUB",
+			"position": 0,
+			"language": "ger",
+			"compositionid": 1,
+			"ancillartyid": 1
+		}
+	]
+}

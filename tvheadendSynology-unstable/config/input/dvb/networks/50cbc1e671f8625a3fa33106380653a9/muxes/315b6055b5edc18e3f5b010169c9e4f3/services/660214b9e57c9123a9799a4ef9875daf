@@ -1,0 +1,29 @@
+{
+	"sid": 28406,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"svcname": "PULS",
+	"provider": "ARD BR",
+	"dvb_servicetype": 2,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445054876,
+	"last_seen": 1446747580,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 161,
+	"pmt": 160,
+	"stream": [
+		{
+			"pid": 161,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "ger",
+			"audio_type": 0
+		}
+	]
+}

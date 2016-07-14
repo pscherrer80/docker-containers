@@ -1,0 +1,27 @@
+{
+	"sid": 129,
+	"lcn": 0,
+	"lcn_minor": 0,
+	"lcn2": 0,
+	"dvb_servicetype": 0,
+	"dvb_ignore_eit": false,
+	"prefcapid": 0,
+	"prefcapid_lock": 0,
+	"force_caid": 0,
+	"created": 1445055454,
+	"last_seen": 1445055454,
+	"enabled": true,
+	"auto": 0,
+	"priority": 0,
+	"pcr": 2051,
+	"pmt": 2064,
+	"stream": [
+		{
+			"pid": 2051,
+			"type": "MPEG2AUDIO",
+			"position": 0,
+			"language": "fre",
+			"audio_type": 0
+		}
+	]
+}
