@@ -42,7 +42,8 @@ VOLUME /config \
 	   /data
 
 # add a user to run as non root 
-RUN adduser --disabled-password --gecos '' hts 
+#RUN adduser --disabled-password --gecos '' hts 
+RUN useradd -ms /bin/bash hts
 
 #Start tvheadend when container starts
 RUN mkdir -p /etc/service/tvheadend
