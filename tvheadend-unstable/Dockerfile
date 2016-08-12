@@ -35,7 +35,7 @@ RUN apt-get install -qy --no-install-recommends \
 WORKDIR /tmp/
 RUN git clone https://github.com/tvheadend/tvheadend.git 
 WORKDIR /tmp/tvheadend
-RUN git checkout f34fac1a 
+RUN git checkout e3e8a79 
 RUN ./configure --enable-libffmpeg_static
 RUN make 
 RUN make install
