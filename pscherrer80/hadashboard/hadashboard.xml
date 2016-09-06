@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>hadashboard</Name>
+  <Overview>HADashboard</Overview>
+<Support></Support>
+<Description>HADashboard
+</Description>
+  <Registry>https://registry.hub.docker.com/u/pscherrer80/hadashboard/</Registry>
+  <Repository>pscherrer80/hadashboard</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+       <Port> 
+         <HostPort>3030</HostPort> 
+         <ContainerPort>3030</ContainerPort> 
+         <Protocol>tcp</Protocol> 
+       </Port> 
+     </Publish> 
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/hadashboard/</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:3030]/extjs.html?</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+  <Config Name="Config Directory" Target="/config" Default="/mnt/cache/app_config/HADashboard" Mode="rw" Description="This path is where HADashboard will store it's configuration files." Type="Path" Display="always" Required="true" Mask="false"/>
+  <ExtraParams>-i</ExtraParams>
+</Container>
