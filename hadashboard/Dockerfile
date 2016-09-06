@@ -24,6 +24,6 @@ RUN gem install dashing \
  && pip3 install --upgrade requests 
 
 EXPOSE 3030 
- 
+
 VOLUME /app/lib /app/dashboards /app/hapush 
-CMD /app/hapush/hapush.py -d /app/hapush/hapush.cfg && dashing start 
+CMD /app/hapush/hapush.py -d /app/hapush/hapush.cfg && dashing start
