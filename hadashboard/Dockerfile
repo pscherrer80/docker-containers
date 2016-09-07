@@ -6,7 +6,7 @@ MAINTAINER pscherrer80 <pscherrer80@gmail.com>
 
 # install packages for dashing
 RUN apt-get update && \
-	apt-get install -y --no-install-recommends build-essential python3-pip git node nodejs libsqlite3-dev postgresql-server-dev-9.4 libpq-dev sqlite && \
+	apt-get install -y --no-install-recommends build-essential python3-pip git node nodejs libsqlite3-dev postgresql-server-dev-9.3 libpq-dev sqlite && \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 
 
