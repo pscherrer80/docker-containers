@@ -1,4 +1,4 @@
-FROM ubuntu:latest 
+FROM ubuntu:14.04
 MAINTAINER pscherrer80 <pscherrer80@gmail.com>
 
 # build environment settings
