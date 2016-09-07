@@ -1,1 +1,1 @@
-Open Zwave Control Panel
+Open Zwave Control Panel (Docker)
