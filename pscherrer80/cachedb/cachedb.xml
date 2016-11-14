@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>cachedb</Name>
+  <Overview>Intersystems caché database</Overview>
+<Support></Support>
+<Description>Intersystems caché database</Description>
+  <Registry>https://registry.hub.docker.com/u/pscherrer80/cachedb/</Registry>
+  <Repository>pscherrer80/cachedb</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/cachedb/</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <Banner></Banner>
+  <Icon></Icon>
+</Container>
