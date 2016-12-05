@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>mssql-linux</Name>
+  <Overview>Microsoft SQL-Server</Overview>
+<Support></Support>
+<Description>Microsoft SQL-Server</Description>
+  <Registry>https://registry.hub.docker.com/u/pscherrer80/mssql-linux/</Registry>
+  <Repository>pscherrer80/mssql-linux</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/mssqllinux/</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <Banner></Banner>
+  <Icon></Icon>
+</Container>
