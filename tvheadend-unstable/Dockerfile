@@ -35,7 +35,7 @@ RUN apt-get install -qy --no-install-recommends \
 WORKDIR /tmp/
 RUN git clone https://github.com/tvheadend/tvheadend.git 
 WORKDIR /tmp/tvheadend
-RUN git checkout e3e8a79 
+RUN git checkout eb495a0 
 RUN ./configure --enable-libffmpeg_static
 RUN make 
 RUN make install
@@ -55,6 +55,10 @@ RUN chmod +x /etc/service/tvheadend/run
 ADD ffmpeg.gz /usr/bin/
 RUN gunzip /usr/bin/ffmpeg.gz
 RUN chmod a+x /usr/bin/ffmpeg
+
+#Add tv_grab_file to /usr/bin/
+ADD tv_grab_file /usr/bin/
+RUN chmod X /usr/bin/tv_grab_file
 
 #Add ffpipe.sh to /usr/local/bin/
 ADD ffpipe.sh /usr/local/bin/
