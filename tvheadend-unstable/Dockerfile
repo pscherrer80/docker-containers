@@ -58,7 +58,7 @@ RUN chmod a+x /usr/bin/ffmpeg
 
 #Add tv_grab_file to /usr/bin/
 ADD tv_grab_file /usr/bin/
-RUN chmod X /usr/bin/tv_grab_file
+RUN chmod x /usr/bin/tv_grab_file
 
 #Add ffpipe.sh to /usr/local/bin/
 ADD ffpipe.sh /usr/local/bin/
