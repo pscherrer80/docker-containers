@@ -1,4 +1,4 @@
-FROM microsoft/mssql-server-linux
+FROM microsoft/mssql-server-linux:latest
 
 RUN apt update && \
 	apt install -y \
