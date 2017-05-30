@@ -34,6 +34,6 @@ fi
 cd /config
 bundle
 # Start hapush
-python3 ./hapush/hapush.py hapush/hapush.cfg > /config/hapush.log &
+# python3 ./hapush/hapush.py hapush/hapush.cfg > /config/hapush.log &
 # Start dashing
 exec dashing start
