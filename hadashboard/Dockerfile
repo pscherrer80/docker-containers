@@ -6,6 +6,9 @@ MAINTAINER pscherrer80 <pscherrer80@gmail.com>
 # build environment settings
 #ENV DEBIAN_FRONTEND noninteractive
 
+RUN usermod -u 99 nobody && \
+usermod -g 100 nobody
+
 # install packages for dashing
 RUN apt-get update && \
 #	apt-get install software-properties-common -y --no-install-recommends && \
