@@ -1,4 +1,6 @@
-FROM ubuntu:14.04
+#FROM ubuntu:14.04
+FROM frvi/ruby
+
 MAINTAINER pscherrer80 <pscherrer80@gmail.com>
 
 # build environment settings
