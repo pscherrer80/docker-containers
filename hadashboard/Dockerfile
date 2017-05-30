@@ -49,7 +49,8 @@ RUN git clone https://github.com/acockburn/hadashboard.git && \
 	bundle && \
 	cd /
 
-COPY files/start.sh /
+ADD files/start.sh /
+RUN chmod a+x start.sh
 
 #VOLUME ["/dashboards", "/jobs", "/lib-dashing", "/config", "/public", "/widgets", "/assets"]
 
