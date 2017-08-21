@@ -3,6 +3,7 @@ FROM phusion/baseimage:0.9.17
 MAINTAINER pscherrer80 <pscherrer80@gmail.com>
 ENV DEBIAN_FRONTEND noninteractive
 
+
 # Set correct environment variables
 ENV HOME /root
 
