@@ -1,0 +1,94 @@
+﻿@model IEnumerable<TimeEntryCore.Models.Worktime>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Arbeitszeiten</h1>
+
+<table align="right" border="1">
+    <tr>
+        <td><strong>Projekt</strong></td>
+        <td align="right"><strong>Total Zeit (h)</strong></td>
+        <td align="right"><strong>Total Fahrzeit (min)</strong></td>
+    </tr>
+    @foreach (var project in ViewBag.ProjectList)
+    {
+<tr>
+    <td>@project.ProjectDescription</td>
+    <td align="right">@project.SumTime</td>
+    <td align="right">@project.SumDrivingTime</td>
+</tr>
+    }
+</table>
+
+<p>
+    <a asp-action="Create">Neuer Eintrag</a>
+</p>
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            <select asp-for="@ViewData["currentMonthFilter"]" name="SearchMonth">
+                <option value=""></option>
+                <option value="0">-- Alle Daten --</option>
+                <option value="1">Januar</option>
+                <option value="2">Februar</option>
+                <option value="3">März</option>
+                <option value="4">April</option>
+                <option value="5">Mai</option>
+                <option value="6">Juni</option>
+                <option value="7">Juli</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">Oktober</option>
+                <option value="11">November</option>
+                <option value="12">Dezember</option>
+            </select>
+            <input type="submit" value="Suchen" class="btn btn-primary" /> |
+            <a asp-action="Index">Filter löschen</a>
+        </p>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProjectID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ServiceID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WorkDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TimeUsed)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProjectDetails.DescriptionLong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ServiceDetails.ServiceDesc)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WorkDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TimeUsed)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.WorktimeID">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.WorktimeID">Löschen</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

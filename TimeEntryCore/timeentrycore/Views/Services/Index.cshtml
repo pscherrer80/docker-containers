@@ -1,0 +1,47 @@
+﻿@model IEnumerable<TimeEntryCore.Models.Service>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Übersicht</h1>
+
+<p>
+    <a asp-action="Create">Neuer Eintrag</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ServiceDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AbsenceType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ServiceDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AbsenceType)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ServiceID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ServiceID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ServiceID">Löschen</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

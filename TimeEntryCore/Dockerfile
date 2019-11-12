@@ -3,11 +3,12 @@ WORKDIR /app
 
 # Copy csproj and restore as distinct layers
 COPY *.sln .
-COPY timeentrycore/*.csproj ./timeentrycore/
+COPY timeentrycore/*.csproj ./
 RUN dotnet restore
 
 # Copy everything else and build
-COPY timeentrycore. ./timeentrycore/
+COPY timeentrycore/. ./timeentrycore/
+WORKDIR /app/timeentrycore
 RUN dotnet publish -c Release -o out
 
 # Build runtime image

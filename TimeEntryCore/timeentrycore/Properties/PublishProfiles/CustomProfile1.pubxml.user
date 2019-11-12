@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Diese Datei wird vom Veröffentlichungs-/Paketierungsprozess Ihres Webprojekts verwendet. Sie können das Verhalten dieses Prozesses anpassen,
+indem Sie diese MSBuild-Datei bearbeiten. Weitere Informationen hierzu finden Sie unter https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2/IXFUiaGEWK5LS/Ux2cpAAAAAACAAAAAAAQZgAAAAEAACAAAACfmQZp/3M/4aOEM5h7S+UWYfFa1vi4Qen0QW46dPM0UgAAAAAOgAAAAAIAACAAAACiPnb57Z2rMMoc9XGIp1t4kBr4T3dc1yMMdzfAJcH7byAAAAC04Ssahuwf44y/yuskOFSbfnPq1bAFaUuyxOiGyxy+Q0AAAADeDynCMa4W7iCrXw4oprGqogjIX9GLthk3U+S/I74PhIKMcELNQ3jUMo4AggRxUJgevh3nDMYLLQxmlB/eWsSU</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=MYSQL6002.site4now.net%3bDatabase=db_a4fe09_time%3bUid=a4fe09_time%3bPwd=connect1909</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
