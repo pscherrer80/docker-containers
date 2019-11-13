@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>TimeEntryCore</Name>
+  <Overview>Zeiterfassung für die Baubranche
+  </Overview>Zeiterfassung
+</Description>
+  <Registry>https://registry.hub.docker.com/u/pscherrer80/timeentrycore/</Registry>
+  <Repository>pscherrer80/timeentrycore</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <Banner></Banner>
+  <Beta>False</Beta>
+  <Category>Application</Category>
+</Container>
