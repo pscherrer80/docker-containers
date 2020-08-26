@@ -37,7 +37,7 @@ WORKDIR /tmp/
 RUN git clone https://github.com/tvheadend/tvheadend.git 
 WORKDIR /tmp/tvheadend
 RUN git checkout ce09077 
-RUN ./configure --enable-libffmpeg_static
+#RUN ./configure --enable-libffmpeg_static
 RUN make 
 RUN make install
 
