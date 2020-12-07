@@ -1,0 +1,45 @@
+//- This file is part of elexis-oob
+    Copyright (c) 2019 by G. Weirich
+
+extends layout
+
+block content
+  .container
+    h1.h1 Daten einlesen
+
+    p Bitte geben Sie an, ob und ggf. welche Initialdaten (möglicherweise nicht aktuell) eingelesen werden sollen. Achtung: Tun Sie das nur bei der Ersteinrichtung. Für spätere Updates sollten Sie die in Elexis vorhandenen Funktionen verwenden, um keine Daten zu verlieren!
+
+    p Die Elemente unter "Realbetrieb" werden echte Datenbestände herunterladen und einlesen, während die Daten aus "Testbetrieb" mehrere Tabellen mit Pseudodaten bzw. partiellen Datenbeständen füllen werden. Im Prinzip können Sie auch Elemente aus beiden Betriebsarten mischen, aber das wird nur selten Sinn machen.
+
+    p So oder so: Sie können <b>nicht</b> einfach von Test zu Real wechseln, indem Sie hier die Datenbestände neu einlesen. Stattdessen müssen Sie die dafür die Datenbank komplett löschen und neu aufsetzen.
+
+    form(action="/db/loaddata" method="POST")
+      hr
+      .form-row
+        .col#left
+          h2.h2 Realbetrieb
+          .form-check
+            input.form-check-input#tarmed(type="checkbox" value="1" name="tarmed")
+            label.form-check-label(for="tarmed") Tarmed (UVG/IV/MV 1.08 und KVG 1.09)
+          .form-check
+            input.form-check-input#articles(type="checkbox" value="1" name="articles")
+            label.form-check-label(for="articles") Artikel (Version 2/2019))
+          .form-check
+            input.form-check-input#icd10(type="checkbox" value="1" name="icd10")
+            label.form-check-label(for="icd10") ICD-10 (Version 2005)
+          .form-check
+            input.form-check-input#labcode(type="checkbox" value="1" name="labcode")
+            label.form-check-label(for="labcode") Labortarif EAL 2009 (Version 3/2019)
+          .form-check
+            input.form-check-input#migel(type="checkbox" value="1" name="migel")
+            label.form-check-label(for="migel") MiGeL (Version 1/2019)     
+          .form-check
+            input.form-check-input#kkdata(type="checkbox" value="1" name="kkdata")
+            label.form-check-label(for="kkdata") Krankenkassen-Adressen und EAN Nummern (2006)
+        .col#right
+          h2.h2 Testbetrieb
+          .form-check
+            input.form-check-input#demodb(type="checkbox" value="1" name="demodb")
+            label.form-check-label.disabled(for="demodb") DemoDB - Fake-Datensätze zum Testen
+      hr  
+      button.btn.btn-default.btn-primary.my-3(type="submit") OK  

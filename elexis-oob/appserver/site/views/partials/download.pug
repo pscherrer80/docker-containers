@@ -1,0 +1,48 @@
+//- This file is part of elexis-oob
+    Copyright (c) 2019 by G. Weirich
+
+h3 Download Elexis
+
+p Klicken Sie auf den zu Ihrem Betriebssystem passenden Button und laden Sie das Elexis-Installationspaket auf Ihren Computer.  
+  
+button.btn.btn-primary.mx-2(type="button" data-toggle="collapse" href="#dl_windows") Windows
+button.btn.btn-primary.mx-2(type="button" data-toggle="collapse" href="#dl_macos") macOS
+button.btn.btn-primary.mx-2(type="button" data-toggle="collapse" href="#dl_linux") Linux
+button.btn.btn-primary.mx-2(type="button" data-toggle="collapse" href="#dl_webelexis") Webelexis
+
+.collapse#dl_windows
+  .card.card-body
+    ul.list-group
+      li.list-group-item
+        a(href="/products/ch.elexis.core.application.ElexisApp-win32.win32.x86.zip") Elexis Windows 32 Bit
+        p Meistens ist es empfehlenswert, diese Version zu verwenden. Achtung. Sie müssen dann auch die 32-Bit-Version von Java installieren.
+
+      li.list-group-item
+        a(href="/products/ch.elexis.core.application.ElexisApp-win32.win32.x86_64.zip") Elexis Windows 64 Bit
+        p Mit dieser Version kann es Probleme mit der Einbindung des Textsystems geben.
+    
+
+.collapse#dl_linux
+  .card.card-body
+    ul.list-group
+      li.list-group-item
+        a(href="products/ch.elexis.core.application.ElexisApp-linux.gtk.x86.zip") Elexis Linux 32 Bit
+        p Nicht empfohlen, ausser wenn Sie wirklich ein 32 Bit Linux haben
+      li.list-group-item
+        a(href="/products/ch.elexis.core.application.ElexisApp-linux.gtk.x86_64.zip") Elexis Linux 64 Bit
+        p Empfohlene Version für Linux
+
+.collapse#dl_macos
+  .card.card-body
+    ul.list-group       
+      li.list-group-item
+        a(href="/products/ch.elexis.core.application.ElexisApp-macosx.cocoa.x86_64.zip") Elexis macOS 64 Bit
+        p Aktuelle Versionen von macOS können gar keine 32-Bit Software mehr ausführen.
+.collapse#dl_webelexis
+  .card.card-body
+    ul.list-group
+      li.list-group-item
+        - const url="http://"+hostname+":2019"
+        a(href=url) Webelexis
+        p Webelexis ist ein Elexis-Client, der in einem Web-Browser läuft. Sie können auf jedem Gerät in Ihrem Netzwerk (auch Mobilgeräten) einen Web-Browser öffnen und auf #{url} richten.
+

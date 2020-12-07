@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    .container
+        h1.h1 Elexis Out-Of-The-Box
+
+        p Es existiert bereits eine Datenbank. Aus Sicherheitsgründen darf nur ein Administrator dieses Programm benutzen.
+        
+        .card
+            .card-header
+                p Bitte geben Sie Benutzername und Passwort eines Elexis-Administrators ein.
+            .card-body
+                form.form(action="dologin", method="post")
+                    .form-group
+                        label(for="username") Anwendername
+                        input.form-control#username(type="text" name="username")
+                    .form-group
+                        label(for="password") Passwort    
+                        input.form-control#password(type="password" name="password")
+                    input(type="submit" value="Anmelden")
+
+        if error
+            p.my-3(style="color:red;font-size:14pt;") Die Angaben konnten keinem Administrator-Account zugeordnet werden. Bitte versuchen sie es noch einmal.    

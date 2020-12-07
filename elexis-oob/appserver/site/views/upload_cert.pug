@@ -1,0 +1,17 @@
+extends layout
+block content
+  .container
+    h1.h1 Zertifikat und Schlüssel installieren
+    .row
+      .col.card
+        .card-header
+          .card-title Existierende Schlüsseldateien wählen
+        .card-body
+          form(action="/manage/certsend" method="post" enctype="multipart/form-data")
+            .form-group
+              label(for="cert") Zertifikat 
+              input.form-control-file#cert(type="file" name="cert")  
+            .form-group
+              label(for="privkey") Privater Schlüssel
+              input.form-control-file#privkey(type="file" name="privkey")  
+            button.btn.btn-primary.btn-small(type="submit") Hochladen

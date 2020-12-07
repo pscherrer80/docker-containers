@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  .container
+    h1.h1 Erfolg
+    h2= header
+    p= body
+
+    form(action="/" method="GET")
+      button.btn.btn-primary#tomain(type="submit") Zurück
+      

@@ -1,0 +1,21 @@
+//- This file is part of elexis-oob
+    Copyright (c) 2019 by G. Weirich
+
+h2 Software Sites
+p Nach erfolgreichem Start von Elexis müssen Sie die benötigten Plugins hinzufügen. Sie können entweder die vorgebenen Software-Sites verwenden, oder die hier aufgeführten, die <a href="#dlsites" data-toggle="collapse">zu Elexis-OOB gehören</a>:
+
+.collapse#dlsites
+  .card.card-body
+    ul.list-group
+      li.list-group-item
+        a(href="/elexis-core") http://#{hostname}:3000/elexis-core
+        p (wird nur selten benötigt)
+
+      li.list-group-item
+        a(href="/elexis-base") http://#{hostname}:3000/elexis-base
+        p (Hier sind die meisten Plugins)
+
+      li.list-group-item
+        a(href="/elexis-ungrad") http://#{hostname}:3000/elexis-ungrad
+        p (Zusätzliche Plugins von Elexis Ungrad)
+    

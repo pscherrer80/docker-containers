@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .container
+    h1.h1 Daten Wiederherstellen
+
+    p Sie sind dabei, die Datensicherung vom 
+    - const text= date+" Uhr"
+    p(style="color:red;font-weight=600;font-size=larger;")= text
+    p wiederherzustellen.
+
+    h2.h2 Warnung
+
+    p Dies wird sämtliche Daten löschen und gegen die Daten aus dem Backup vom #{date} Uhr ersetzen. Falls bei diesem Vorgang
+      |  etwas schief geht, kann es sein, dass die Daten verloren sind.
+    p Einmal gestartet, kann der Prozess nicht mehr unterbrochen werden.  
+
+    button.btn.btn-primary(onclick="window.location.replace('/backup/restore')")  Abbrechen
+    button.btn.btn.secondary(onclick="window.location.replace('/backup/restore/confirm/"+index+"')") Ausführen.

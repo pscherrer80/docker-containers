@@ -1,0 +1,41 @@
+//- This file is part of elexis-oob
+    Copyright (c) 2019 by G. Weirich
+
+extends layout
+
+block content
+  .container
+    h1.h1 Backup Einstellungen
+    p Das Backup wird nur funktionieren, wenn Sie in der Grundeinstellung (docker.compose.yaml) ein 
+      |  entsprechendes Verzeichnis für die Datensicherung eingebunden haben! Bitte prüfen Sie, ob am
+      | gewünschten Ort ein Backup erscheint!
+
+    form(action="/backup/exec" method="POST")  
+      .form-group.row
+        .col-3
+          input.form-control#minute(type="text" value="*" name="minute")
+        label.col-form-label.col-9(for="minute") Minute  (0-59)
+      .form-group.row
+        .col-3
+          input.form-control#hour(type="text" value="*" name="hour")
+        label.col-form-label.col-9(for="hour") Stunde  (0-23)
+      .form-group.row
+        .col-3
+          input.form-control#day(type="text" value="*" name="day")
+        label.col-form-label.col-9(for="day") Tag  (0-31)
+      .form-group.row
+        .col-3
+          input.form-control#month(type="text" value="*" name="month")
+        label.col-form-label.col-9(for="month") Monat  (1-12)
+      .form-group.row
+        .col-3
+          input.form-control#weekday(type="text" value="*" name="weekday")
+        label.col-form-label.col-9(for="weekday") Wochentag (1-7, 1 ist Montag)
+      .form-group.row
+        .col-3  
+          input.form-control#numbackups(type="text" value="10" name="numbackups")
+        label.col-form-label.col-9(for="numbackups") Zahl der aufzubewahrenden Backup-Generationen    
+
+      button.my-3(type="submit" name="button" value="setup") Einrichten 
+      button.mx-3(type="submit" name="button" value="test") Jetzt ausführen
+      

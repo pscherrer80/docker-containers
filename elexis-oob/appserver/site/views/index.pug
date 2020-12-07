@@ -1,0 +1,23 @@
+//- This file is part of elexis-oob
+    Copyright (c) 2019 by G. Weirich
+
+extends layout
+
+block content
+  .container
+    h1.h1= title
+    .row
+      .col
+        h2.h2 Installation und Konfiguration
+        p Detaillierte 
+          a(href="/doc/index.html" target="_new") Anleitung
+          |.
+        hr 
+        include partials/download.pug
+        hr
+        include partials/connection.pug
+      .col   
+        include partials/dlsites 
+        include partials/manage
+        include partials/joblist
+        

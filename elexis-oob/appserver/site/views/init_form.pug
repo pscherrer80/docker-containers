@@ -1,0 +1,35 @@
+//- This file is part of elexis-oob
+    Copyright (c) 2019 by G. Weirich
+
+extends layout
+
+block content
+    .container
+        h1.h1 Datenbank initialisieren
+
+        p Achtung: Diese Funktion wird die Datenbank (falls vorhanden) komplett löschen und neu initialisieren.
+        | Führen Sie diese Funktion nur beim ersten Start aus!
+        hr     
+        form(action="/db/do_initialize" method="POST")
+            .form-row
+                .form-group.col
+                    label(for="dbname") Name der Datenbank
+                    input.form-control#dbname(type="text" name="dbname" value="elexisoob")
+                    small#dbrootpwdHelp.form-text.text-muted Wenn Sie nicht sicher sind, belassen Sie dies auf dem Standardwert.
+                    
+                .form-group.col Root-Passwort des Datenbankservers
+                    label(for="dbrootpwd")   
+                    input.form-control#dbrootpwd(type="text" name="dbrootpwd" value="elexisadmin")
+                    small#dbrootpwdHelp.form-text.text-muted Wenn Sie nicht sicher sind, belassen Sie dies auf dem Standardwert.
+            .form-row          
+                .form-group.col
+                    label(for="dbuser") Username für Datenbankverbindung
+                    input.form-control#dbuser(type="text" name="dbuser" value="elexisuser")
+                    small#dbrootpwdHelp.form-text.text-muted Name für die Verbindung der Elexis-Clients zur Datenbank.
+      
+                .form-group.col
+                    label(for="dbpwd") Passwort für Datenbankverbindung
+                    input.form-control#dbpwd(type="text" name="dbpwd" value="topsecret")        
+                    small#dbrootpwdHelp.form-text.text-muted Passwort für die Verbindung der Elexis-Clients zur Datenbank.
+                          
+            button.btn.btn-primary#okbutton(type="submit" value="Senden") Ok

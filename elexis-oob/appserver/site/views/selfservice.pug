@@ -1,0 +1,35 @@
+//- This file is part of elexis-oob
+    Copyright (c) 2019 by G. Weirich
+    
+extends layout
+
+mixin tinp(name, label, val)
+    .input-group
+        label.col(for=name)= label 
+        input.col.form-input#name(type="text" name=name value=val)
+        
+block content
+    .container
+        h1.h1 Termine-Selbstbedienung konfigurieren
+        form.form(action="/manage/selfservice" method="POST")
+            +tinp("sitename", "Name der Institution/Praxis (Seitenkopf und Absender)", sd.sitename)
+            +tinp("sitemail", "E-Mail der Institution/Praxis (Seitenkopf und Absender)", sd.sitemail)
+            +tinp("siteaddr", "Postadresse (Seitenkopf)",sd.siteaddr)
+            +tinp("sitephone","Telefon-Nummer (Seitenkopf)",sd.sitephone)
+            +tinp("terminTyp","Termintyp für Selfservice-Termine (muss in Elexis existieren!)", sd.terminTyp)
+            +tinp("minDuration","Dauer für Selfservice-Termin (Minuten)", sd.minDuration)
+            +tinp("maxPerDay","Maximale Zahl an angebotenen Terminen pro Tag",sd.maxPerDay)
+            +tinp("resource","Agendabereich für den Termine gegeben werden sollen",sd.resource)
+            +tinp("confirm","Inhalt der Bestätigungsmail oder leer (keine Bestätigungsmail",sd.confirm)
+            hr
+            h2.h2 Angaben zum Postausgangsserver
+                .small (Für Bestätigungs-Mails benötigt)
+            +tinp("host","Server (z.B. smpt.example.com)",smtp.host)
+            +tinp("port","Port für die Verbindung (meist 465 (ssl) oder 587)",smtp.port)
+            +tinp("user","Username für Autorisierung",smtp.user)
+            +tinp("pwd","Passwort für die Autorisierung",smtp.pwd)
+                
+            button.btn.btn-primary(type="submit") Konfigurieren
+
+
+

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .container
+    .row#churl(data-checkurl=checkurl)
+      #running(style="font-weight:800;font-size:20pt") Fortschritt:
+        img#uhr(style="display:block" src="/images/clock.gif", alt="Uhr", width="150px" height="150px")
+        h2.h2#process 
+      #finished(style="display:none") 
+        img#uhr(src="/images/end.jpg", alt="Uhr", width="150px" height="150px")
+        h2.h2 Fertig!
+        form(action="/" method="GET")
+          button.btn.btn-primary(type="submit") Zurück
+
+  script(src="/poller.js")

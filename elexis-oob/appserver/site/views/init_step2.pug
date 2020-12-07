@@ -1,0 +1,58 @@
+//- This file is part of elexis-oob
+    Copyright (c) 2019 by G. Weirich
+
+extends layout
+
+block content
+  .container
+    h1.h1 Datenbank vorbereiten
+
+    p Die Datenbank wurde erfolgreich erstellt. Jetzt muss das Administrator-Konto und das Konto des Hauptmandanten eingerichtet werden.
+
+    form(action="/db/createaccount" method="POST")
+      .form-row
+        .form-group.col
+          label(for="adminname") Username des Administrators
+          input.form-control#adminname(type="text" value="administrator" name="adminname")
+        .form-group.col
+          label(for="adminpwd") Passwort des Administrators
+          input.form-control#adminpwd(type="text" value="admin" name="adminpwd")
+      .form-row
+        .form-group.col
+          label(for="username") Username des Hauptmandanten
+          input.form-control#username(type="text" value="Chef" name="username")
+        .form-group.col
+          label(for="userpwd") Passwort des Hauptmandanten
+          input.form-control#userpwd(type="text" value="muchsecret" name="userpwd")
+      .form-row
+        .form-group.col
+          label(for="lastname") Name des Hauptmandanten
+          input.form-control#lastname(type="text" value="Dok" name="lastname")
+        .form-group.col
+          label(for="firstname") Vorname(n)
+          input.form-control#lastname(type="text" value="Tor" name="firstname")
+        .form-group.col
+          label(for="title") Titel
+          input.form-control#title(type="text" value="Dr. Comp." name="title")
+      .form-row
+        .form-group.col
+          label(for="email") E-Mail
+          input.form-control#email(type="mail" value="me@nowhere.invalid")
+        .form-group.col
+          label(for="zsr") ZSR-Nummer
+          input.form-control#zsr(type="text" value="")
+        .form-group.col
+          label(for="gln") GLN (EAN) 
+          input.form-control#ean(type="text" value="")
+      .form-row
+        .form-group.col
+          label(for="sitename") Name der Institution
+          input.form-control#sitename(type="text" value="Praxis Webelexis")
+        .form-group.col
+          label(for="street") Strasse
+          input.form-control#street(type="text" value="Hintergasse 77") 
+        .form-group.col
+          label(for="place") PLZ Ort
+          input.form-control#place(type="text" value="9999 Elexikon")         
+
+      button.btn.btn-primary(type="submit" value="ok") OK        

@@ -1,0 +1,59 @@
+extends layout
+
+block content
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
+  script(src="/javascripts/resumable.js")
+  
+  .container
+
+    h1.h1 Daten wiederherstellen
+
+    p Achtung: Diese Funktion löscht die Daten vollständig und ersetzt sie gegen die Version in der Backup-Datei. Bei diesem Vorgang könnten Fehler auftreten, die die Datenbank und/oder die Backup-Datei beschädigen. Wenden Sie diese Funktion niemals ohne Datensicherung an!
+
+    h2.h2 Wählen Sie die Backup-Datei zum Wiederherstellen aus
+
+    .row
+      .col.card  
+        .card-body
+          h2.card-title Restore aus OOB Backup  
+          .card-text Wählen Sie bitte hier das zurückzuspielende Backup.
+            ul.list-group.my-3
+              each date,index in dates
+                li.list-group-item
+                  - const text = date+" Uhr"
+                  a(href="/backup/restore/"+index)= text
+
+      .col.card
+        .card-body
+          h2.card-title Restore aus SQL-Datei
+          h5.card-subtitle (Nur Elexis-Datenbank)
+          .card-text.my-3  Wenn das Backup von einem mysql-Backup (z.B. mysqldump) erstellt wurde, wählen Sie die entsprechende .sql - Datei:
+            .resumable-error.
+              Ihr Browser unterstützt den Dateiupload nicht. Empfohlen sind: Chrome, Firefox oder Safari.
+            .resumable-drop
+              p Ziehen Sie die SQL Datei hierher oder 
+                a.resumable-browse 
+                  u wählen Sie eine SQL-Datei
+                          
+            .resumable-progress
+              table
+                tr
+                  td(width="100%")
+                    .progress-container
+                      .progress-bar
+                  td.progress-text(nowrap="nowrap")
+                  td.progress-pause(nowrap="nowrap")    
+                    a.progress-resume-link(href="#" onclick="r.upload(); return(false);")
+                        img(src="/images/resume.png" title="Upload fortsetzen")
+                    a.progress-pause-link(href="#" onclick="r.pause(); return(false);")
+                        img(src="/images/pause.png" title="Upload pausieren")
+                    a.progress-cancel-link(href="#" onclick="r.cancel(); return(false);")
+                        img(src="/images/cancel.png" title="Upload abbrechen")    
+            .resumable-list
+            p Bitte warten Sie, bis der Upload beendet ist. Danach können Sie mit "Zurück" wieder zum Hauptbildschirm.
+            script(src="/javascripts/handle_resumable.js")
+    
+    .row
+      p(style="margin-top:20px;")
+        button.btn.btn-primary(onclick="window.location.replace('/')") Zurück
+    
