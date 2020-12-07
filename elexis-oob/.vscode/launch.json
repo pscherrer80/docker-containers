@@ -1,0 +1,51 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Mocha 2",
+      "program": "${workspaceFolder}/appserver/site/node_modules/mocha/bin/_mocha",
+      "args": [
+        "-u",
+        "bdd",
+        "--timeout",
+        "999999",
+        "--colors",
+        "${workspaceFolder}/appserver/site/tests"
+      ],
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Mocha Tests",
+      "program": "${workspaceFolder}/appserver/site/node_modules/.bin/mocha",
+      "args": [
+        "--timeout",
+        "999999",
+        "--colors",
+        "${workspaceFolder}/appserver/site/tests"
+      ],
+      "outputCapture": "std",
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+  {
+    "type": "node",
+    "request": "launch",
+    "name": "loader",
+    "program": "${workspaceFolder}/appserver/site/routes/loader.js"
+  },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/appserver/site/bin/www",
+      "cwd": "${workspaceFolder}/appserver/site",
+      "outputCapture": "std"
+    }
+  ]
+}
