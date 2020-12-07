@@ -1,0 +1,120 @@
+version: "3"
+
+services:
+  appserver:
+    build: ./appserver
+    container_name: elx_appserver
+    hostname: appserver.${LOCAL_NAME}
+    environment:
+      - DBHOST=${DBHOST}
+      - DBPORT=${DBPORT}
+      - DBNAME=${DBNAME}
+      - DBUSER=${DBUSER}
+      - DBPWD=${DBPWD}
+      - PUBLIC_DBPORT=${PUBLIC_DBPORT}
+      - HOST_HOSTNAME=<Server Name>
+      - NODE_ENV=production
+    volumes:
+      - backup:/backup
+      - webelexisdata:/mnt/webelexisdata
+      - elexisdb:/mnt/elexisdb
+      - pacsdata:/mnt/pacsdata
+    restart: always  
+    ports:
+      - ${APPSERVER_PORT}:3000
+    depends_on:
+      - elexisdb
+    labels: 
+      - "traefik.enable=true"
+      - "traefik.http.routers.appserver.rule=Host(`appserver.${LOCAL_NAME}`)"  
+      - "traefik.http.routers.appserver.entrypoints=http"
+ 
+  elexisdb:
+    image: mariadb:10.3
+    command: 
+      --lower-case-table-names=1 
+      --max-allowed-packet=128M
+      --wait-timeout=3600
+    container_name: elx_elexisdb
+    hostname: elexisdb.{$LOCAL_NAME}
+    environment:
+      - MYSQL_ROOT_PASSWORD=${DB_ROOT_PWD}
+    volumes: 
+      - elexisdb:/var/lib/mysql
+    ports:
+      - "${PUBLIC_DBPORT}:3306"
+    restart: always
+    labels: 
+      - "traefik.enable=false"
+      - "traefik.http.routers.elexisdb.rule=Host(`elexisdb.${LOCAL_NAME}`)"  
+      
+   
+  webelexis:
+    image: rgwch/webelexis:3.3.5
+    container_name: elx_webelexis
+    volumes:
+      - webelexisdata:/home/node/webelexis/data
+    ports:
+      - "${WEBELEXIS_PORT}:3030"
+      - "${SELFSERVICE_PORT}:4040"
+    depends_on:
+      - appserver    
+      - elexisdb
+    environment:
+      - EXTERNAL_PORT=${WEBELEXIS_PORT}
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.webelexis.rule=Host(`webelexis.${LOCAL_NAME}`)"  
+      - "traefik.http.routers.webelexis.entrypoints=http"
+      - "traefik.http.routers.webelexis.service=service1"
+      - "traefik.http.services.service1.loadbalancer.server.port=3030"
+      - "traefik.http.routers.termine.rule=Host(`termine.${EXTERNAL_NAME}`)"  
+      - "traefik.http.routers.termine.entrypoints=http"
+      - "traefik.http.routers.termine.service=service2"
+      - "traefik.http.services.service2.loadbalancer.server.port=4040"
+
+      
+  pacs:
+    image: sparklyballs/pacs
+    container_name: elx_pacs
+    ports:
+      - "${PACS_WEBPORT}:8080"
+      - "${PACS_AETPORT}:11112"
+    volumes:
+      - ${PACS_DATA:-pacsdata}:/config
+    restart: always
+    labels: 
+      - "traefik.enable=true"
+      - "traefik.http.routers.pacs.rule=Host(`pacs.${LOCAL_NAME}`)"  
+      - "traefik.http.routers.pacs.entrypoints=http"
+      - "traefik.http.routers.pacs.service=service3"
+      - "traefik.http.services.service3.loadbalancer.server.port=8080"
+      - "traefik.http.routers.aet.rule=Host(`aet.${LOCAL_NAME}`)"  
+      - "traefik.http.routers.aet.entrypoints=http"
+      - "traefik.http.routers.aet.service=service4"
+      - "traefik.http.services.service4.loadbalancer.server.port=11112"
+   
+  proxy:
+    image: traefik:v2.2
+    command: 
+      - "--api.insecure=false"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.http.address=:80"
+      - "--entrypoints.https.address=:443"
+    container_name: elx_proxy
+    ports:
+      - "80:80"    
+      - "443:443"
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "webelexisdata:/mnt"
+
+volumes:
+  webelexisdata:
+  elexisdb:
+  pacsdata:
+  backup:
+
+    
