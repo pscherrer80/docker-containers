@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Elexis-oob</Name>
+  <Overview>Elexis-Dockerfile
+  </Overview>
+<Description>.
+</Description>
+  <Registry>https://registry.hub.docker.com/u/pscherrer80/elexis-oob/</Registry>
+  <Repository>pscherrer80/elexis-oob</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/data/</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+  <Beta>False</Beta>
+  <Category></Category>
+</Container>
